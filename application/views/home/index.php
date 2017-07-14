@@ -107,6 +107,7 @@
                                 </h4>
                                 <p>Traslado desde el aeropuerto de Puerto Iguazu a cualquier punto de la ciudad</p>
                             </div>
+                            <button type="button" class="btn btn-primary btn-block">Reservar</button>
                             <div class="ratings">
                                 <p class="pull-right">6 comentarios</p>
                                 <p>
