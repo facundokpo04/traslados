@@ -2,7 +2,7 @@
 <div class="row">
    <div class="col-sm-12 col-lg-12 col-md-12">
         <div class="thumbnail">
-            <img class="img-fluid"  src="<?php echo base_url(); ?>assets/images/frente.jpg" alt="">
+            <img class="img-fluid"  src="<?php echo base_url(); ?>assets/images/trasladocataratas2.jpg" alt="">
             <div class="caption-full">
                 <h4 class="pull-right">$450.00</h4>
                 <h4><a href="#">Traslado Al Aeropuerto</a>

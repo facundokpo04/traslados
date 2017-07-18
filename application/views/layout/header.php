@@ -35,7 +35,7 @@
 
     </head>
 
-    <body>
+    <body style="background-image: url(assets/images/fondo.jpg);" >
 
 
         <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">

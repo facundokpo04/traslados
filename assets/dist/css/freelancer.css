@@ -291,6 +291,7 @@ form .row:first-child .floating-label-form-group {
 }
 footer {
   color: white;
+  background: #22303e;
 }
 footer h3 {
   margin-bottom: 30px;
