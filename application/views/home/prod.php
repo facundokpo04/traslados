@@ -1,3 +1,18 @@
+<?php
+$preference_data = array(
+	"items" => array(
+		array(
+			"title" => "Traslado Aeropuerto",
+			"quantity" => 1,
+			"currency_id" => "ARS", // Available currencies at: https://api.mercadopago.com/currencies
+			"unit_price" => 1.00
+		)
+	)
+);
+$mp = new Mercadopago("2673738623774353", "lu3xy9QvaKLqfKUudd6AwBkKOAPGUw7Q");
+$preference =  $mp->create_preference($preference_data);
+
+?>
   
 <div class="row">
    <div class="col-sm-12 col-lg-12 col-md-12">
@@ -80,7 +95,8 @@
 
                 </div>
                 <div class="row">
-                    <p><a href="#" class="btn btn-primary" role="button">Reserve Ahora</a> <a href="#" class="btn btn-default" role="button">Volver Atras</a></p>
+                    
+                    <p><a href="<?php echo $preference['response']['sandbox_init_point']; ?>" name="MP-Checkout" class="lightblue-M-Ov-ArOn" mp-mode="modal">Pagar</a> <a href="#" class="btn btn-default" role="button">Volver Atras</a></p>
                 </div>
             </div>
         </div>

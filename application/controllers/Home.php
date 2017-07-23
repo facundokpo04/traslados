@@ -7,6 +7,8 @@ class Home extends CI_Controller {
     public function __CONSTRUCT() {
         parent::__construct();
         //cargar el modelo
+     
+        $this->load->library('Mercadopago');         
     }
 
     public function index() {
@@ -19,18 +21,19 @@ class Home extends CI_Controller {
         //inicializacion de paginacion
 
 
-    $this->load->view('home/index.php');
+        $this->load->view('home/index.php');
 
         //footer
         $this->load->view('layout/footer');
     }
 
-    
-     public function prod() {
+    public function prod() {
 
         //header
+          
+       
         $this->load->view('layout/header');
-       $this->load->view('layout/menu');
+        $this->load->view('layout/menu');
         //definimos variable para traer la data y mantner la logica de paginacion
         //inicializacion de paginacion
 
@@ -40,4 +43,5 @@ class Home extends CI_Controller {
         //footer
         $this->load->view('layout/footer');
     }
+
 }
