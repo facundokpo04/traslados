@@ -55,12 +55,46 @@
                             <a href="#page-top"></a>
                         </li>
                         <li class="page-scroll">
-                            <a href="#portfolio">Sobre Nosotros</a>
+                            <a href="#">Inicio</a>
                         </li>
                         <li class="page-scroll">
-                            <a href="#about">Traslados</a>
+                            <a href="#portfolio">Sobre Nosotros</a>
                         </li>
-                          <li class="page-scroll">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Excusiones <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li ><a style="color: #1c1a1a;" href="#">Cataratas Argentinas</li>
+                                <li><a style="color: #1c1a1a;"href="#">La Aripuca</a></li>
+                                <li><a style="color: #1c1a1a;"href="#">Güira Oga </a></li>
+                                <li><a style="color: #1c1a1a;"href="#">Biocentro</a></li>
+                                <li><a style="color: #1c1a1a;"href="#">Selva Viva</a></li>
+                                <li><a style="color: #1c1a1a;"href="#">Espiritus de la selva</a></li>
+                                <li><a style="color: #1c1a1a;"href="#">Jardín de Picaflores</a></li>
+
+
+                                <li role="separator" class="divider"></li>
+                                <li><a style="color: #1c1a1a;"href="#">Bar de Hielo</a></li>
+                                <li><a style="color: #1c1a1a;"href="#">Catamaran por el Rio Parana</a></li>
+                                <li  role="separator" class="divider"></li>
+                                <li><a style="color: #1c1a1a;"href="#">Iguazu Forest</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Traslados <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li ><a style="color: #1c1a1a;" href="#">Minas de Wanda y Ruinas de San Ignacio</li>
+                                <li><a style="color: #1c1a1a;"href="#">Excuriones Tres Paises</a></li>
+                                <li><a style="color: #1c1a1a;"href="#">Minas de Wanda </a></li>                           
+                                <li role="separator" class="divider"></li>
+                                <li><a style="color: #1c1a1a;"href="#">Cataratas Brasileras</a></li>
+                                <li><a style="color: #1c1a1a;"href="#">Parque de Aves</a></li>
+                                <li><a style="color: #1c1a1a;"href="#">Represa Hidroelectrica Itaipu</a></li>
+                              <li  role="separator" class="divider"></li>
+                               <li><a style="color: #1c1a1a;"href="#">Compras en Ciudad del Este</a></li>
+                             
+                            </ul>
+                        </li>
+                        <li class="page-scroll">
                             <a href="#about">Info Util</a>
                         </li>
                         <li class="page-scroll">
@@ -72,7 +106,7 @@
             </div>
             <!-- /.container-fluid -->
         </nav>
-       
+
 
         <!--
              Navigation 

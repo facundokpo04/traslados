@@ -26,4 +26,18 @@ class Traslados extends CI_Controller {
 
    
 
+     public function traslado1() {
+
+        //header
+        $this->load->view('layout/header');
+//        $this->load->view('layout/slider');
+        //definimos variable para traer la data y mantner la logica de paginacion
+        //inicializacion de paginacion
+
+
+        $this->load->view('traslados/traslado1.php');
+
+        //footer
+        $this->load->view('layout/footer');
+    }
 }
