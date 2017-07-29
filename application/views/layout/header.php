@@ -60,8 +60,11 @@
                         <li class="page-scroll">
                             <a href="#about">Traslados</a>
                         </li>
+                          <li class="page-scroll">
+                            <a href="#about">Info Util</a>
+                        </li>
                         <li class="page-scroll">
-                            <a href="#contact">Contacto</a>
+                            <a href="index.php/Contact">Contacto</a>
                         </li>
                     </ul>
                 </div>

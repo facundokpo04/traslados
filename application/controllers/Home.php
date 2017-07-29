@@ -16,7 +16,7 @@ class Home extends CI_Controller {
         //header
         $this->load->view('layout/header');
         $this->load->view('layout/slider');
-        $this->load->view('layout/menu');
+//        $this->load->view('layout/menu');
         //definimos variable para traer la data y mantner la logica de paginacion
         //inicializacion de paginacion
 
@@ -33,7 +33,7 @@ class Home extends CI_Controller {
           
        
         $this->load->view('layout/header');
-        $this->load->view('layout/menu');
+//        $this->load->view('layout/menu');
         //definimos variable para traer la data y mantner la logica de paginacion
         //inicializacion de paginacion
 
