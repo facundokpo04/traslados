@@ -1,21 +1,20 @@
 <?php
 $preference_data = array(
-	"items" => array(
-		array(
-			"title" => "Traslado Aeropuerto",
-			"quantity" => 1,
-			"currency_id" => "ARS", // Available currencies at: https://api.mercadopago.com/currencies
-			"unit_price" => 10.00
-		)
-	)
+    "items" => array(
+        array(
+            "title" => "Traslado Aeropuerto",
+            "quantity" => 4,
+            "currency_id" => "ARS", // Available currencies at: https://api.mercadopago.com/currencies
+            "unit_price" => 10.00
+        )
+    )
 );
 $mp = new Mercadopago("2673738623774353", "lu3xy9QvaKLqfKUudd6AwBkKOAPGUw7Q");
-$preference =  $mp->create_preference($preference_data);
-
+$preference = $mp->create_preference($preference_data);
 ?>
-  
+
 <div class="row">
-   <div class="col-sm-12 col-lg-12 col-md-12">
+    <div class="col-sm-12 col-lg-12 col-md-12">
         <div class="thumbnail">
             <img class="img-fluid"  src="<?php echo base_url(); ?>assets/images/trasladocataratas2.jpg" alt="">
             <div class="caption-full">
@@ -95,11 +94,17 @@ $preference =  $mp->create_preference($preference_data);
 
                 </div>
                 <div class="row">
-                   <a mp-mode="dftl" href="https://www.mercadopago.com/mla/checkout/start?pref_id=19504483-4f9b933e-f74b-4371-993d-599844e7a449" name="MP-payButton" class='blue-ar-m-rn-arall'>Pagar</a>
+                    <link href="https://portal.todopago.com.ar/app/css/boton.css" rel="stylesheet">
+                    <div class="boton-todopago-css">
+                        <a href='https://forms.todopago.com.ar/formulario/commands?command=formulario&m=1d895bbf7895cb590893b60cd0495520#utm_source=248071&utm_medium=boton_de_pago&utm_campaign=web'>
+                            <div class="col-md-4 col-sm-4 col-xs-12 tipo-boton-class boton_solo" id="htmlBoton" style="display: block;"> <input type="button" id="vistaPreviaBoton" class="btn aviso-boton-texto disabled" value="Pagar" style="border: 1px solid; background-color: rgb(16, 82, 250); color: rgb(8, 7, 7);"> </div>
+                        </a>
+                    </div>
+                    <a mp-mode="dftl" href="https://www.mercadopago.com/mla/checkout/start?pref_id=19504483-4f9b933e-f74b-4371-993d-599844e7a449" name="MP-payButton" class='blue-ar-m-rn-arall'>Pagar</a>
                     <p><a href="<?php echo $preference['response']['init_point']; ?>" name="MP-Checkout" class="lightblue-M-Ov-ArOn" mp-mode="modal">Pagar</a> <a href="#" class="btn btn-default" role="button">Volver Atras</a></p>
                 </div>
             </div>
         </div>
-     </div>
+    </div>
 </div>
 
