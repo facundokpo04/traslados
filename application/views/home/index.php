@@ -15,12 +15,12 @@
                 <img src="<?php echo base_url(); ?>assets/images/traslado1/cataratasarg.jpg" alt="">              
 
                 <div class="caption">
-                    <h4 class="pull-right">$650</h4>
+                    <h4 class="pull-right"> $650</h4>
                     <h4><a href="#">Cataratas Argentina</a>
                     </h4>
                     <p>Traslado ida y vuelta a Cataratas Argentina .</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod';" >Reservar</button>
+                <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod/1';" >Reservar</button>
                 <div class="ratings">
                     <p class="pull-right">15 Comentarios</p>
                     <p>
@@ -44,7 +44,7 @@
                     </h4>
                     <p>Traslado desde el aeropuerto de Puerto Iguazu a cualquier punto de la ciudad</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod';" >Reservar</button>
+                <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod/2';" >Reservar</button>
                 <div class="ratings">
                     <p class="pull-right">6 comentarios</p>
                     <p>
@@ -321,7 +321,7 @@
             <div class="thumbnail">
                 <img src="<?php echo base_url(); ?>assets/images/traslado2/aripuca.jpg" alt=""> 
                 <div class="caption">
-                    <h4 class="pull-right">$80</h4>
+                    <h4 class="pull-right"> $80/PAX</h4>
                     <h4><a href="#">La Aripuca</a>
                     </h4>
                     <p>La Aripuca es el nombre de una trampa de caza de los pueblos guaraníes. Es también un complejo eco-turístico construido con el diseño de dicha trampa realizado con más de 30 especies y 500 toneladas de arboles </p>
@@ -343,7 +343,7 @@
             <div class="thumbnail">
                 <img src="<?php echo base_url(); ?>assets/images/traslado3/guiraoga.jpg" alt=""> 
                 <div class="caption">
-                    <h4 class="pull-right">$74.99</h4>
+                    <h4 class="pull-right">PAX $74.99</h4>
                     <h4><a href="#">Güira Oga </a>
                     </h4>
                     <p>Centro de Rescate, Rehabilitación y Recría de Fauna Silvestre</p>

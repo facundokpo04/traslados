@@ -2,8 +2,8 @@
 $preference_data = array(
     "items" => array(
         array(
-            "title" => "Traslado Aeropuerto",
-            "quantity" => 4,
+            "title" => "Traslado Aeropuerto Argentina",
+            "quantity" => 1,
             "currency_id" => "ARS", // Available currencies at: https://api.mercadopago.com/currencies
             "unit_price" => 10.00
         )
@@ -20,12 +20,9 @@ $preference = $mp->create_preference($preference_data);
             <div class="caption-full">
                 <h4 class="pull-right">$450.00</h4>
                 <h4><a href="#">Traslado Al Aeropuerto</a>
+                    
                 </h4>
-                <p>See more snippets like these online store reviews at <a target="_blank" href="http://bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
-                <p>Want to make these reviews work? Check out
-                    <strong><a href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">this building a review system tutorial</a>
-                    </strong>over at maxoffsky.com!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <p></p>
             </div>
             <div class="ratings">
                 <p class="pull-right">3 reviews</p>
@@ -82,7 +79,6 @@ $preference = $mp->create_preference($preference_data);
                                 <option>2</option>
                                 <option>3</option>
                                 <option>4</option>
-                                <option>5</option>
                             </select>
                         </div>
                         <div class="form-group">
@@ -94,13 +90,8 @@ $preference = $mp->create_preference($preference_data);
 
                 </div>
                 <div class="row">
-                    <link href="https://portal.todopago.com.ar/app/css/boton.css" rel="stylesheet">
-                    <div class="boton-todopago-css">
-                        <a href='https://forms.todopago.com.ar/formulario/commands?command=formulario&m=1d895bbf7895cb590893b60cd0495520#utm_source=248071&utm_medium=boton_de_pago&utm_campaign=web'>
-                            <div class="col-md-4 col-sm-4 col-xs-12 tipo-boton-class boton_solo" id="htmlBoton" style="display: block;"> <input type="button" id="vistaPreviaBoton" class="btn aviso-boton-texto disabled" value="Pagar" style="border: 1px solid; background-color: rgb(16, 82, 250); color: rgb(8, 7, 7);"> </div>
-                        </a>
-                    </div>
-                    <a mp-mode="dftl" href="https://www.mercadopago.com/mla/checkout/start?pref_id=19504483-4f9b933e-f74b-4371-993d-599844e7a449" name="MP-payButton" class='blue-ar-m-rn-arall'>Pagar</a>
+                   
+               
                     <p><a href="<?php echo $preference['response']['init_point']; ?>" name="MP-Checkout" class="lightblue-M-Ov-ArOn" mp-mode="modal">Pagar</a> <a href="#" class="btn btn-default" role="button">Volver Atras</a></p>
                 </div>
             </div>

@@ -27,7 +27,7 @@ class Home extends CI_Controller {
         $this->load->view('layout/footer');
     }
 
-    public function prod() {
+    public function prod($i) {
 
         //header
           
@@ -38,7 +38,7 @@ class Home extends CI_Controller {
         //inicializacion de paginacion
 
 
-        $this->load->view('home/prod.php');
+        $this->load->view('home/prod'.$i.'.php');
 
         //footer
         $this->load->view('layout/footer');
