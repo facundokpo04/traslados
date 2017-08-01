@@ -39,9 +39,9 @@ $preference = $mp->create_preference($preference_data);
                 </ul>
                 <p>* Se puede abonar únicamente en pesos y en efectivo. <br>
                     * Para obtener los diferentes descuentos es necesario presentar D.N.I.                </p>
-                
+
                 <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Mapa Integrado</button>
-                   <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal2">Tarifas 2017</button>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal2">Tarifas 2017</button>
 
             </div>
             <div class="ratings">
@@ -67,6 +67,7 @@ $preference = $mp->create_preference($preference_data);
             <div id="demo" class="collapse">
                 <div class="row">
                     <form>
+                        <input type="hidden" class="form-control" type="date"  id="nombreTraslado" >
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address/Direccion de Correo</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -84,14 +85,20 @@ $preference = $mp->create_preference($preference_data);
                         </div>
                         <div class="form-group">
                             <label for="exampleSelect1">Hotel/Hospedaje</label>
-                            <select class="form-control" id="exampleSelect1">
-                                <option>El guembe</option>
-                                <option>Lodge de la Selva</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
+                            <select class="form-control" id="selectHotel">
+                                <option value="El guembe">El guembe</option>
+                                <option value="Lodge de la Selva">Lodge de la Selva</option>
+                                <option value="otro">Otro</option>
+                                
                             </select>
                         </div>
+                        <div class="form-group">
+                            <label><input type="checkbox" onclick="document.getElementById('otroAlo').disabled = !this.checked;document.getElementById('selectHotel').disabled = this.checked;document.getElementById('selectHotel').value='otro'">Otro Alojamiento</label>
+                        </div> 
+                        <div class="form-group" >
+                            <label for="exampleTextarea">donde va alojarse?</label>
+                            <textarea class="form-control" id="otroAlo" rows="3" disabled></textarea>
+                        </div>   
                         <div class="form-group">
                             <label for="exampleSelect2">Cantidad de Pasajeros</label>
                             <select multiple class="form-control" id="exampleSelect2">
@@ -101,9 +108,10 @@ $preference = $mp->create_preference($preference_data);
                                 <option>4</option>
                             </select>
                         </div>
+
                         <div class="form-group">
                             <label for="exampleTextarea">Alguna Aclaracion</label>
-                            <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                            <textarea class="form-control" id="exampleTextarea" rows="3" ></textarea>
                         </div>                                  
                         <!--            <button type="submit" class="btn btn-primary">Submit</button>-->
                     </form>
@@ -122,22 +130,22 @@ $preference = $mp->create_preference($preference_data);
 
 
 <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-        <div class="modal-body">
-            <img src="<?php echo base_url(); ?>assets/images/mapacataratas.jpg"  class="img-responsive">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="<?php echo base_url(); ?>assets/images/mapacataratas.jpg"  class="img-responsive">
+            </div>
         </div>
     </div>
-  </div>
 </div>
 <div id="myModal2" class="modal fade" tabindex="-1" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-        <div class="modal-body">
-            <img src="<?php echo base_url(); ?>assets/images/tarifas2017.jpg"  class="img-responsive">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="<?php echo base_url(); ?>assets/images/tarifas2017.jpg"  class="img-responsive">
+            </div>
         </div>
     </div>
-  </div>
 </div>
 
 
