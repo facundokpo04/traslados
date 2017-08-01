@@ -55,15 +55,15 @@
                             <a href="#page-top"></a>
                         </li>
                         <li class="page-scroll">
-                            <a href="#">Inicio</a>
+                            <a href="<?php echo base_url(); ?>index.php/Home">Inicio</a>
                         </li>
                         <li class="page-scroll">
-                            <a href="#portfolio">Sobre Nosotros</a>
+                            <a href="<?php echo base_url(); ?>index.php/pages/view/about">Sobre Nosotros</a>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Excusiones <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li ><a style="color: #1c1a1a;" href="#">Cataratas Argentinas</li>
+                                <li ><a style="color: #1c1a1a;" href="<?php echo base_url(); ?>index.php/pages/view/traslado1">Cataratas Argentinas</li>
                                 <li><a style="color: #1c1a1a;"href="#">La Aripuca</a></li>
                                 <li><a style="color: #1c1a1a;"href="#">Güira Oga </a></li>
                                 <li><a style="color: #1c1a1a;"href="#">Biocentro</a></li>
@@ -98,7 +98,7 @@
                             <a href="#about">Info Util</a>
                         </li>
                         <li class="page-scroll">
-                            <a href="index.php/Contact">Contacto</a>
+                            <a href="contact">Contacto</a>
                         </li>
                     </ul>
                 </div>

@@ -18,7 +18,7 @@ class Contact extends CI_Controller {
         //inicializacion de paginacion
 
 
-        $this->load->view('contact/index.php');
+        $this->load->view('pages/contact');
 
         //footer
         $this->load->view('layout/footer');

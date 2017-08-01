@@ -20,7 +20,7 @@
                     </h4>
                     <p>Traslado ida y vuelta a Cataratas Argentina .</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/Home/prod/1';" >Reservar</button>
+                <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod/1';" >Reservar</button>
                 <div class="ratings">
                     <p class="pull-right">15 Comentarios</p>
                     <p>
@@ -44,7 +44,7 @@
                     </h4>
                     <p>Traslado desde el aeropuerto de Puerto Iguazu a cualquier punto de la ciudad</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/Home/prod/2';" >Reservar</button>
+                <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod/2';" >Reservar</button>
                 <div class="ratings">
                     <p class="pull-right">6 comentarios</p>
                     <p>
@@ -67,7 +67,7 @@
                     </h4>
                     <p>Punto panorámico, ubicado a pocas cuadras del centro de la ciudad, es el punto más alto de la barranca, este obelisco fue inaugurado en 1903, marca el límite territorial entre Argentina, Brasil y Paraguay.</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/Home/prod/1';">Reservar</button>
+                <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod';" >Reservar</button>
                 <div class="ratings">
                     <p class="pull-right">18 comentarios</p>
                     <p>
