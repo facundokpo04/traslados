@@ -16,8 +16,8 @@
 
                 <div class="caption">
                     <h4 class="pull-right"> $650</h4>
-                    <h4><a href="#">Cataratas Argentina</a>
-                    </h4>
+                    <h5><a href="#">Cataratas Argentina</a>
+                    </h5>
                     <p>Traslado ida y vuelta a Cataratas Argentina .</p>
                 </div>
                 <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/Home/prod/1';" >Reservar</button>
@@ -40,8 +40,8 @@
                 <img src="<?php echo base_url(); ?>assets/images/traslado4/trasladoaeropuerto.jpg" alt="">
                 <div class="caption">
                     <h4 class="pull-right">$450</h4>
-                    <h4><a href="#">Tras Aeropuerto</a>
-                    </h4>
+                    <h5><a href="#">Tras Aeropuerto</a>
+                    </h5>
                     <p>Traslado desde el aeropuerto de Puerto Iguazu a cualquier punto de la ciudad</p>
                 </div>
                 <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/Home/prod/2';" >Reservar</button>
@@ -63,8 +63,8 @@
                 <img src="<?php echo base_url(); ?>assets/images/traslado5/citytour.jpg" alt="http://placehold.it/320x150">
                 <div class="caption">
                     <h4 class="pull-right">$400</h4>
-                    <h4><a href="#">City tour/Puerto Iguazu</a>
-                    </h4>
+                    <h5><a href="#">City tour/Puerto Iguazu</a>
+                    </h5>
                     <p>Punto panorámico, ubicado a pocas cuadras del centro de la ciudad, es el punto más alto de la barranca, este obelisco fue inaugurado en 1903, marca el límite territorial entre Argentina, Brasil y Paraguay.</p>
                 </div>
                 <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/Home/prod/1';">Reservar</button>
@@ -85,8 +85,8 @@
                 <img src="<?php echo base_url(); ?>assets/images/traslado6/aeropuertobrasil.jpg" alt="">
                 <div class="caption">
                     <h4 class="pull-right">$650</h4>
-                    <h4><a href="#">Aeropuerto Brasil</a>
-                    </h4>
+                    <h5><a href="#">Aeropuerto Brasil</a>
+                    </h5>
                     <p>Traslado de Iguazu a el Aeropuerto Brasil + Peaje.</p>
                 </div>
                 <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod';" >Reservar</button>
@@ -107,8 +107,8 @@
                 <img src="<?php echo base_url(); ?>assets/images/traslado6/aeropuertobrasil.jpg" alt="">
                 <div class="caption">
                     <h4 class="pull-right">$500</h4>
-                    <h4><a href="#">Aeropuerto Brasil Out</a>
-                    </h4>
+                    <h5><a href="#">Aeropuerto Brasil Out</a>
+                    </h5>
                     <p>Traslado desde  Aeropuerto Brasil a la Ciudad de Puerto Iguazu.</p>
                 </div>
                 <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod';" >Reservar</button>
@@ -129,8 +129,8 @@
                 <img src="<?php echo base_url(); ?>assets/images/traslado7/aeropuertocde.jpg" alt="">
                 <div class="caption">
                     <h4 class="pull-right">$500</h4>
-                    <h4><a href="#">Aerop. Ciudad del Este</a>
-                    </h4>
+                    <h5><a href="#">Aerop. Ciudad del Este</a>
+                    </h5>
                     <p>Traslado de Iguazu a el Aeropuerto Ciudad del Este</p>
                 </div>
                 <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod';" >Reservar</button>
@@ -151,8 +151,8 @@
                 <img src="<?php echo base_url(); ?>assets/images/traslado8/centrofoz.jpg" alt="">
                 <div class="caption">
                     <h4 class="pull-right">$400</h4>
-                    <h4><a href="#">Centro de Foz</a>
-                    </h4>
+                    <h5><a href="#">Centro de Foz</a>
+                    </h5>
                     <p>Traslado de Iguazu a el el centro de foz de iguazu</p>
                 </div>
                 <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod';" >Reservar</button>
@@ -173,8 +173,8 @@
                 <img src="<?php echo base_url(); ?>assets/images/traslado9/cataratasbrasil.jpg" alt="">
                 <div class="caption">
                     <h4 class="pull-right">$750</h4>
-                    <h4><a href="#">Cataratas Brasil</a>
-                    </h4>
+                    <h5><a href="#">Cataratas Brasil</a>
+                    </h5>
                     <p>Traslado de Iguazu a cataratas brasileras ida y vuelta</p>
                 </div>
                 <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod';" >Reservar</button>
@@ -195,8 +195,8 @@
                 <img src="<?php echo base_url(); ?>assets/images/traslado10/ciudaddeleste.jpg" alt="">
                 <div class="caption">
                     <h4 class="pull-right">$650</h4>
-                    <h4><a href="#">Compras Ciudad de Este</a>
-                    </h4>
+                    <h5><a href="#">Compras Ciudad de Este</a>
+                    </h5>
                     <p>Paseo de compras por ciudad del este 2hs de Espera</p>
                 </div>
                 <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod';" >Reservar</button>
@@ -217,8 +217,8 @@
                 <img src="<?php echo base_url(); ?>assets/images/traslado11/itaipu.jpg" alt="">
                 <div class="caption">
                     <h4 class="pull-right">$600</h4>
-                    <h4><a href="#">Itaipu</a>
-                    </h4>
+                    <h5><a href="#">Itaipu</a>
+                    </h5>
                     <p>Traslado y visita a la  represa Itaipu Binacional desde iguazu</p>
                 </div>
                 <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod';" >Reservar</button>
@@ -239,8 +239,8 @@
                 <img src="<?php echo base_url(); ?>assets/images/traslado12/itaipucatartas.jpg" alt="">
                 <div class="caption">
                     <h4 class="pull-right">$1200</h4>
-                    <h4><a href="#">Cataras Brasil + Itaipu</a>
-                    </h4>
+                    <h5><a href="#">Cataras Brasil + Itaipu</a>
+                    </h5>
                     <p>...</p>
                 </div>
                 <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod';" >Reservar</button>
