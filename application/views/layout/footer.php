@@ -9,8 +9,16 @@
 <!-- Footer -->
 
 <footer class="text-center">
+   
     <div class="footer-above">
         <div class="container">
+            <div class="row" >
+                <div class="footer-col col-md-4">
+                    <h3>Tiempo en Iguazu</h3>
+                   <div id="TT_FCNBHwlezMpcneIK7AzF3lmFGWaKT4MlLY1Y1ZC5qEzIm5moG">Tiempo en Iguazu</div>
+                </div>
+
+            </div>
             <div class="row">
                 <div class="footer-col col-md-4">
                     <h3>Localizacion</h3>
@@ -33,9 +41,9 @@
                 </div>
                 <div class="footer-col col-md-4">
                     <h3>Contacto</h3>
-                    
-                        <p><i class="fa fa-fw fa-phone-square"></i> 3757420769<br></p>
-                        <p><i class="fa fa-fw fa-whatsapp"></i> +5493757420769</p>
+
+                    <p><i class="fa fa-fw fa-phone-square"></i> 3757420769<br></p>
+                    <p><i class="fa fa-fw fa-whatsapp"></i> +5493757420769</p>
 
 
                 </div>
@@ -77,7 +85,7 @@
 
 <!-- Bootstrap Core JavaScript -->
 <script src="<?php echo base_url(); ?>assets/dist/js/bootstrap.min.js"></script>
-
+<script type="text/javascript" src="https://www.tutiempo.net/s-widget/l_FCNBHwlezMpcneIK7AzF3lmFGWaKT4MlLY1Y1ZC5qEzIm5moG"></script>
 
 </body>
 
