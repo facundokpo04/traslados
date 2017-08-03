@@ -42,8 +42,8 @@
                 <div class="footer-col col-md-4">
                     <h3>Contacto</h3>
 
-                    <p><i class="fa fa-fw fa-phone-square"></i> 3757420769<br></p>
-                    <p><i class="fa fa-fw fa-whatsapp"></i> +5493757420769</p>
+                    <p><i class="fa fa-fw fa-phone-square"></i> 3757527299<br></p>
+                    <p><i class="fa fa-fw fa-whatsapp"></i> +5493757527299</p>
 
 
                 </div>

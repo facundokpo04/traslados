@@ -37,7 +37,8 @@ $preference = $mp->create_preference($preference_data);
                     <li><strong><span>Menores (entre 6 y 12 años)  - Mercosur: $  100,00 (pesos por persona)</span></strong></li>                       <li><strong><span>Menores (entre 6 y 12 años)  - Residentes argentinos: $  80,00 (pesos por persona)</span></strong></li>                    
 
                 </ul>
-                <p>* Se puede abonar únicamente en pesos y en efectivo. <br>
+                <p> * Ingresos al <b>Parque Nacional</b> no estan incluidos en el traslado. <br>
+                    * Se puede abonar únicamente en pesos y en efectivo. <br>
                     * Para obtener los diferentes descuentos es necesario presentar D.N.I.                </p>
 
                 <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Mapa Integrado</button>
