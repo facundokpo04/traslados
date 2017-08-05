@@ -38,10 +38,17 @@ class Home extends CI_Controller {
         //inicializacion de paginacion
 
 
-        $this->load->view('home/prod'.$i.'.php');
+        $this->load->view('home/prod'.$i.'.php', [
+            'nroTras' => $i
+        ]);
 
         //footer
         $this->load->view('layout/footer');
     }
+
+    public function registrarTraslado() {
+        
+    }
+   
 
 }

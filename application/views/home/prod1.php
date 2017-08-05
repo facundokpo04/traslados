@@ -11,6 +11,7 @@ $preference_data = array(
 );
 $mp = new Mercadopago("2673738623774353", "lu3xy9QvaKLqfKUudd6AwBkKOAPGUw7Q");
 $preference = $mp->create_preference($preference_data);
+ echo $nroTras;
 ?>
 
 <div class="row">
@@ -67,21 +68,23 @@ $preference = $mp->create_preference($preference_data);
             <hr>
             <div id="demo" class="collapse">
                 <div class="row">
+                   
                     <form>
-                        <input type="hidden" class="form-control" type="date"  id="nombreTraslado" >
+                        <input type="hidden" class="form-control" type="date"  id="idTraslado" value="<?php echo $nroTras ? $nroTras : '-1'; ?>" >
+                        <input type="hidden" class="form-control" type="date"  id="nombreTraslado" value="Traslado Cataratas" >
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address/Direccion de Correo</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email">
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputPassword1">Nombre Completo</label>
-                            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Nombre Completo">
+                            <input type="text" class="form-control" id="InputNombre" placeholder="Nombre Completo">
                         </div>
                         <div class="form-group">
                             <label for="example-date-input" class="col-2 col-form-label">Fecha Reserva/Date</label>
                             <div class="col-10">
-                                <input class="form-control" type="date"  id="example-date-input">
+                                <input class="form-control" type="date"  id="inputdate">
                             </div>
                         </div>
                         <div class="form-group">
@@ -90,11 +93,11 @@ $preference = $mp->create_preference($preference_data);
                                 <option value="El guembe">El guembe</option>
                                 <option value="Lodge de la Selva">Lodge de la Selva</option>
                                 <option value="otro">Otro</option>
-                                
+
                             </select>
                         </div>
                         <div class="form-group">
-                            <label><input type="checkbox" onclick="document.getElementById('otroAlo').disabled = !this.checked;document.getElementById('selectHotel').disabled = this.checked;document.getElementById('selectHotel').value='otro'">Otro Alojamiento</label>
+                            <label><input type="checkbox" onclick="document.getElementById('otroAlo').disabled = !this.checked;document.getElementById('selectHotel').disabled = this.checked;document.getElementById('selectHotel').value = 'otro'">Otro Alojamiento</label>
                         </div> 
                         <div class="form-group" >
                             <label for="exampleTextarea">donde va alojarse?</label>
@@ -102,7 +105,7 @@ $preference = $mp->create_preference($preference_data);
                         </div>   
                         <div class="form-group">
                             <label for="exampleSelect2">Cantidad de Pasajeros</label>
-                            <select multiple class="form-control" id="exampleSelect2">
+                            <select multiple class="form-control" id="inputCantPax">
                                 <option>1</option>
                                 <option>2</option>
                                 <option>3</option>
@@ -112,7 +115,7 @@ $preference = $mp->create_preference($preference_data);
 
                         <div class="form-group">
                             <label for="exampleTextarea">Alguna Aclaracion</label>
-                            <textarea class="form-control" id="exampleTextarea" rows="3" ></textarea>
+                            <textarea class="form-control" id="imputAclaracion" rows="3" ></textarea>
                         </div>                                  
                         <!--            <button type="submit" class="btn btn-primary">Submit</button>-->
                     </form>

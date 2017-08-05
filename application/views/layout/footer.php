@@ -87,6 +87,8 @@
 <script src="<?php echo base_url(); ?>assets/dist/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://www.tutiempo.net/s-widget/l_FCNBHwlezMpcneIK7AzF3lmFGWaKT4MlLY1Y1ZC5qEzIm5moG"></script>
 
+<!-- registro -->
+<script src="<?php echo base_url(); ?>assets/js/registro.js"></script>
 </body>
 
 </html>
