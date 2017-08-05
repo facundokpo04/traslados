@@ -133,7 +133,7 @@
                     </h5>
                     <p>Traslado de Iguazu al centro u otro punto de interes en Foz de Iguazu</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod';" >Reservar</button>
+                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/Home/prod/6';" >Reservar</button>
                 <div class="ratings">
                     <p class="pull-right">18 comentarios</p>
                     <p>
