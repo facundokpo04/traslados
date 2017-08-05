@@ -89,7 +89,7 @@
                     </h5>
                     <p>Traslado desde del Aeropuerto de Brasil a la ciudad e Puerto Iguazu</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod';" >Reservar</button>
+                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/Home/prod/4';" >Reservar</button>
                 <div class="ratings">
                     <p class="pull-right">18 comentarios</p>
                     <p>
@@ -111,7 +111,7 @@
                     </h5>
                     <p>Traslado desde la ciudad de Puerto Iguazu hasta el Aeropuerto de Brasil</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod';" >Reservar</button>
+                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/Home/prod/5';" >Reservar</button>
                 <div class="ratings">
                     <p class="pull-right">18 comentarios</p>
                     <p>

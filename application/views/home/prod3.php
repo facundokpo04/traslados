@@ -43,6 +43,7 @@ $preference = $mp->create_preference($preference_data);
                 <h5>Informacion Importante: </h5> 
                 <ul>
                     <li><strong><span>Valor de Ingreso: $110 P/Persona</span></strong></li> 
+                    <li><strong><span>Menores de 8 años no pagan</span></strong></li> 
                     <li><strong><span>Horario de Visita: de 09:00 hs. 18:00 hs.</span></strong></li>  
                     <li><strong><span>Duracion: 1 hora</span></strong></li> 
                 </ul>
