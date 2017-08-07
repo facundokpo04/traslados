@@ -155,7 +155,7 @@
                     </h5>
                     <p>Traslado desde Iguazu a las Cataratas Brasileras ida y vuelta</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod';" >Reservar</button>
+                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/Home/prod/7';" >Reservar</button>
                 <div class="ratings">
                     <p class="pull-right">18 comentarios</p>
                     <p>
@@ -177,7 +177,7 @@
                     </h5>
                     <p>Paseo de compras por Ciudad del Este 3hs de Espera</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod';" >Reservar</button>
+                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/Home/prod/8';" >Reservar</button>
                 <div class="ratings">
                     <p class="pull-right">18 comentarios</p>
                     <p>
@@ -199,7 +199,7 @@
                     </h5>
                     <p>Traslado y visita a la  represa Itaipu Binacional desde Puerto Iguazu</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod';" >Reservar</button>
+                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/Home/prod/9';" >Reservar</button>
                 <div class="ratings">
                     <p class="pull-right">18 comentarios</p>
                     <p>
@@ -221,7 +221,7 @@
                     </h5>
                     <p>Traslado desde Puerto Iguazu , Visitando Cataratas Brasileras y Represa de Itaipu, ida y vuelta</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod';" >Reservar</button>
+                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/Home/prod/10';" >Reservar</button>
                 <div class="ratings">
                     <p class="pull-right">18 comentarios</p>
                     <p>
@@ -244,7 +244,7 @@
                     </h5>
                     <p>Traslado Ida y Vuelta desde Puerto Iguazu hasta las Minas de Wanda</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod';" >Reservar</button>
+                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/Home/prod/11';" >Reservar</button>
                 <div class="ratings">
                     <p class="pull-right">18 comentarios</p>
                     <p>
@@ -266,7 +266,7 @@
                     </h5>
                     <p>Traslado exclusivo desde Puerto Iguazu, Combinado Visitando Minas de Wanda y Ruinas de San Ignacio localizado a 290Km de Iguazu</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod';" >Reservar</button>
+                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/Home/prod/12';" >Reservar</button>
                 <div class="ratings">
                     <p class="pull-right">18 comentarios</p>
                     <p>
