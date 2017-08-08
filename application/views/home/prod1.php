@@ -105,11 +105,11 @@ $preference = $mp->create_preference($preference_data);
                         </div>   
                         <div class="form-group">
                             <label for="exampleSelect2">Cantidad de Pasajeros</label>
-                            <select multiple class="form-control" id="inputCantPax">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
+                            <select  class="form-control" id="inputCantPax">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
                             </select>
                         </div>
 
@@ -124,7 +124,8 @@ $preference = $mp->create_preference($preference_data);
                 <div class="row">
 
 
-                    <p><a href="<?php echo $preference['response']['init_point']; ?>" name="MP-Checkout" class="lightblue-M-Ov-ArOn" mp-mode="modal">Pagar</a> <a href="#" class="btn btn-default" role="button">Volver Atras</a></p>
+                    <p><a href="<?php echo $preference['response']['init_point']; ?>" name="MP-Checkout" class="lightblue-M-Ov-ArOn" mp-mode="modal"   onreturn="execute_my_onreturn">Pagar</a> <a href="#" class="btn btn-default" role="button">Volver Atras</a></p>
+                    <a  class="btn btn-default" role="button" onclick="crearevento();">Crear Evento</a></p>
                 </div>
             </div>
         </div>
@@ -152,4 +153,7 @@ $preference = $mp->create_preference($preference_data);
     </div>
 </div>
 
+<script type="text/javascript">
+    var baseurl = "<?php echo base_url(); ?>";
+</script>
 
