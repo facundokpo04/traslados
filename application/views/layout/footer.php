@@ -90,6 +90,10 @@
 <script src="<?php echo base_url(); ?>assets/dist/js/jquery.validate.js"></script>
 <!-- registro -->
 <script src="<?php echo base_url(); ?>assets/js/registro.js"></script>
+<!-- datepicker -->
+<script src="<?php echo base_url(); ?>assets/dist/datepicker/bootstrap-datepicker.js"></script>
+<script src="<?php echo base_url(); ?>assets/dist/datetimepicker/bootstrap-datetimepicker.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
 </body>
 
 </html>

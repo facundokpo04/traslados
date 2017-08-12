@@ -33,6 +33,9 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
+        <!-- Date Picker -->
+        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/dist/datepicker/datepicker3.css">
+        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/dist/datetimepicker/bootstrap-datetimepicker.min.css">
     </head>
 
     <body style="background-image: url(assets/images/fondo.jpg);" >
@@ -87,7 +90,7 @@
                                 <li><a style="color: #1c1a1a;"href="#">Compras en Ciudad del Este</a></li>
                             </ul>
                         </li>
-                      
+
                         <li class="page-scroll">
                             <a href="#about">Info Util</a>
                         </li>

@@ -2,7 +2,7 @@
 $preference_data = array(
     "items" => array(
         array(
-            "title" => "Traslado Aeropuerto Argentina",
+            "title" => "Traslado Cataratas Argentina",
             "quantity" => 1,
             "currency_id" => "ARS", // Available currencies at: https://api.mercadopago.com/currencies
             "unit_price" => 1.00
@@ -75,21 +75,24 @@ echo $nroTras;
                         <div  class="form-group">
                             <label  for="InputEmail">Email address/Direccion de Correo</label>
                             <input type="email" class="form-control" id="InputEmail" name="InputEmail">
-                            
+
                         </div>
                         <div c class="form-group">
                             <label for="InputNombre">Nombre Completo</label>
                             <input type="text" class="form-control" id="InputNombre" name="InputNombre">
                         </div>
+
                         <div class="form-group">
                             <label for="inputdate" class="col-2 col-form-label">Fecha Reserva/Date</label>
+
                             <div class="col-10">
-                                <input class="form-control" type="date"  id="inputdate" name="inputdate">
+                                <input type="date" name="inputdate" id="inputdate" min="<?php echo date("Y-m-d");?>" max="2019-12-31" value="<?php echo date("Y-m-d");?>">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="exampleSelect1">Hotel/Hospedaje</label>
-                            <select class="form-control" id="selectHotel">
+                            <select class="form-control" id="selectHotel" name="selectHotel" onchange="this.value == 'otro'?document.getElementById('otroAlo').value='': document.getElementById('otroAlo').value = this.value">
+                               <option value="">Seleccione un Hotel...</option>
                                 <option value="El guembe">El guembe</option>
                                 <option value="Lodge de la Selva">Lodge de la Selva</option>
                                 <option value="otro">Otro</option>
@@ -101,7 +104,7 @@ echo $nroTras;
                         </div> 
                         <div class="form-group" >
                             <label for="exampleTextarea">donde va alojarse?</label>
-                            <textarea class="form-control" id="otroAlo" rows="3" disabled></textarea>
+                            <textarea class="form-control" name="otroAlo" id="otroAlo" rows="3" disabled></textarea>
                         </div>   
                         <div class="form-group">
                             <label for="exampleSelect2">Cantidad de Pasajeros</label>

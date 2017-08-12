@@ -67,8 +67,7 @@ echo $nroTras;
             </div>
 
         </div>
-
-        <div class="well">
+ <div class="well">
 
             <h4><a href="#demo" data-toggle="collapse">Complete el Formulario de Reserva</a>
             </h4>
@@ -77,27 +76,30 @@ echo $nroTras;
             <div id="demo" class="collapse">
                 <div class="row">
 
-                    <form>
+                    <form action="" method="post" id="formulario" name="formulario"  class="form">
                         <input type="hidden" class="form-control" type="date"  id="idTraslado" value="<?php echo $nroTras ? $nroTras : '-1'; ?>" >
                         <input type="hidden" class="form-control" type="date"  id="nombreTraslado" value="Traslado Cataratas" >
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address/Direccion de Correo</label>
-                            <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        <div  class="form-group">
+                            <label  for="InputEmail">Email address/Direccion de Correo</label>
+                            <input type="email" class="form-control" id="InputEmail" name="InputEmail">
+
                         </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Nombre Completo</label>
-                            <input type="text" class="form-control" id="InputNombre" placeholder="Nombre Completo">
+                        <div c class="form-group">
+                            <label for="InputNombre">Nombre Completo</label>
+                            <input type="text" class="form-control" id="InputNombre" name="InputNombre">
                         </div>
+
                         <div class="form-group">
-                            <label for="example-date-input" class="col-2 col-form-label">Fecha Reserva/Date</label>
+                            <label for="inputdate" class="col-2 col-form-label">Fecha Reserva/Date</label>
+
                             <div class="col-10">
-                                <input class="form-control" type="date"  id="inputdate">
+                                <input type="date" name="inputdate" id="inputdate" min="<?php echo date("Y-m-d");?>" max="2019-12-31" value="<?php echo date("Y-m-d");?>">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="exampleSelect1">Hotel/Hospedaje</label>
-                            <select class="form-control" id="selectHotel">
+                            <select class="form-control" id="selectHotel" name="selectHotel" onchange="this.value == 'otro'?document.getElementById('otroAlo').value='': document.getElementById('otroAlo').value = this.value">
+                               <option value="">Seleccione un Hotel...</option>
                                 <option value="El guembe">El guembe</option>
                                 <option value="Lodge de la Selva">Lodge de la Selva</option>
                                 <option value="otro">Otro</option>
@@ -109,31 +111,31 @@ echo $nroTras;
                         </div> 
                         <div class="form-group" >
                             <label for="exampleTextarea">donde va alojarse?</label>
-                            <textarea class="form-control" id="otroAlo" rows="3" disabled></textarea>
+                            <textarea class="form-control" name="otroAlo" id="otroAlo" rows="3" disabled></textarea>
                         </div>   
                         <div class="form-group">
                             <label for="exampleSelect2">Cantidad de Pasajeros</label>
-                            <select multiple class="form-control" id="inputCantPax">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
+                            <select  class="form-control" id="inputCantPax">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
                             </select>
                         </div>
 
                         <div class="form-group">
+
                             <label for="exampleTextarea">Alguna Aclaracion</label>
                             <textarea class="form-control" id="imputAclaracion" rows="3" ></textarea>
                         </div>                                  
                         <!--            <button type="submit" class="btn btn-primary">Submit</button>-->
+                        <p><a id="link" href="<?php echo $preference['response']['init_point']; ?>"   name="MP-Checkout" class="lightblue-M-Ov-ArOn" mp-mode="modal"  onreturn="execute_my_onreturn">Pagar</a>
+                            <a href="#" class="btn btn-default" role="button">Volver Atras</a></p>
+
                     </form>
 
                 </div>
-                <div class="row">
 
-
-                    <p><a href="<?php echo $preference['response']['init_point']; ?>" name="MP-Checkout" class="lightblue-M-Ov-ArOn" mp-mode="modal">Pagar</a> <a href="#" class="btn btn-default" role="button">Volver Atras</a></p>
-                </div>
             </div>
         </div>
     </div>

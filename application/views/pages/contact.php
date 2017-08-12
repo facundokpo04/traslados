@@ -7,7 +7,7 @@
         </div>
          <hr>
         <div class="col-sm-12 col-lg-12 col-md-12">
-            <form name="sentMessage" id="contactForm" novalidate>
+            <form action="javascript:enviarConsulta()" name="sentMessage" id="contactForm" >
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
@@ -54,3 +54,6 @@
         height: 400px;
     }
 </style>
+<script type="text/javascript">
+    var baseurl = "<?php echo base_url(); ?>";
+</script>

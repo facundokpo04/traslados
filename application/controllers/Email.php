@@ -19,6 +19,7 @@ class Email extends CI_Controller {
             'email' => $this->input->post('email'),
             'hotel' => $this->input->post('hotel'),
             'cantpax' => $this->input->post('cantpax'),
+            'estadoPago' => $this->input->post('estadoPago'),
             'aclaracion' => $this->input->post('aclaracion'),
         ];
 
@@ -53,6 +54,52 @@ class Email extends CI_Controller {
                 $dataEmail['cantpax'] .
                 '<br>Aclaracion: ' .
                 $dataEmail['aclaracion'] .
+                '<br>Estado Pago: ' .
+                $dataEmail['estadoPago'] .
+                "</p>");
+        $this->email->send();
+//con esto podemos ver el resultado
+        echo json_encode($this->email->print_debugger());
+    }
+
+    public function sendMailGmailConsulta() {
+//cargamos la libreria email de ci
+        $this->load->library("email");
+
+        $dataEmail = [
+            'name' => $this->input->post('name'),
+            'email' => $this->input->post('email'),
+            'phone' => $this->input->post('phone'),
+            'message' => $this->input->post('message')
+        ];
+
+//configuracion para gmail
+        $configGmail = array(
+            'protocol' => 'smtp',
+            'smtp_host' => 'ssl://smtp.gmail.com',
+            'smtp_port' => 465,
+            'smtp_user' => 'trasladoscataratas@gmail.com',
+            'smtp_pass' => 'valentino1587',
+            'mailtype' => 'html',
+            'charset' => 'utf-8',
+            'newline' => "\r\n"
+        );
+
+//cargamos la configuración para enviar con gmail
+        $this->email->initialize($configGmail);
+
+        $this->email->from('facundokpo04@gmail.com');
+        $this->email->to("trasladoscataratas@gmail.com");
+        $this->email->subject('Nueva Consulta desde La Pagina');
+        $this->email->message("<p><strong>Consulta </strong><br>Nombre: " .
+                $dataEmail['name'] .
+                '<br>Correo: ' .
+                $dataEmail['email'] .
+                '<br>Telefono: ' .
+                $dataEmail['phone'] .
+                '<br>Consulta : ' .
+                $dataEmail['message'] .
+               
                 "</p>");
         $this->email->send();
 //con esto podemos ver el resultado

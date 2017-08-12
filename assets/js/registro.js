@@ -4,13 +4,16 @@
  * and open the template in the editor.
  */
 
-
 function iniciar() {
     $("#formulario").validate({
         rules: {
             InputEmail: {required: true, email: true},
-            InputNombre: {required: true },
-            inputdate: {required: true} },
+            InputNombre: {required: true, text: true},
+            otroAlo: {required: true, text: true},
+            inputdate: {required: true, date:true},
+            selectHotel: {required: true }},
+
+
         messages: {
             InputEmail: {
                 email: "<span class='label label-danger'>Debe ingresar un email valido</span>",
@@ -20,21 +23,30 @@ function iniciar() {
                 text: "<span class='label label-danger'>Debe ingresar un nombre valido</span>",
                 required: "<span class='label label-danger'>Debe ingresar un nombre</span>"
             },
-            inputdate: {
-                date: "<span class='label label-danger'>Debe ingresar una fecha  valido</span>",
-                required: "<span class='label label-danger'>Debe ingresar un fecha</span>"
+            otroAlo: {
+                text: "<span class='label label-danger'>Debe ingresar un texto valido</span>",
+                required: "<span class='label label-danger'>Debe ingresar un texto</span>"
+            },
+              inputdate: {
+                  date: "<span class='label label-danger'>Debe ingresar una fecha valida</span>",
+                required: "<span class='label label-danger'>Debe elegir una fecha de traslado</span>"
+            },
+            selectHotel:{
+                required: "<span class='label label-danger'>Debe seleccionar un Hotel, si no esta en la lista ponga Otro</span>"
             }
+
 
         },
         errorPlacement: function (error, element) {
-          
-                $("<br>").appendTo(element.parent().find("label"));
-                error.appendTo(element.parent().find("label"));
-            
+
+            $("<br>").appendTo(element.parent().find("label"));
+            error.appendTo(element.parent().find("label"));
+
         }
     });
 
-};
+}
+;
 function execute_my_onreturn(json) {
     debugger;
     if (json.collection_status == 'approved') {
@@ -77,6 +89,31 @@ function enviarConfirmacion(mensajePago) {
         },
         error: function (request, status, error) {
             debugger;
+            console.log(error);
+        }
+    });
+}
+
+function enviarConsulta() {
+    debugger;
+    $.ajax({
+        type: "POST",
+        url: baseurl + "index.php/email/sendMailGmailConsulta",
+        dataType: 'json',
+        data: {'<?php echo $this->security->get_csrf_token_name(); ?>': '<?php echo $this->security->get_csrf_hash(); ?>',
+            name: $('#name').val(),
+            email: $('#email').val(),
+            phone: $('#phone').val(),
+            message: $('#message').val()
+        },
+        success: function (res) {
+            alert('Su consulta fue enviada')
+            ('#contactForm').reset()
+            debugger;
+        },
+        error: function (request, status, error) {
+            debugger;
+            alert('Su consulta no fue enviada, Por favor escribanos a trasladoscataratas@gmail.com')
             console.log(error);
         }
     });
