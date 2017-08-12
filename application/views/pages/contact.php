@@ -1,12 +1,11 @@
 <div class="well">
+   
     <div class="row">
         <div class="col-lg-12 text-center">
             <h2 class="section-heading">Contacte con Nosotros</h2>
             <h3 class="section-subheading text-muted">Escriba su consulta y nos contactaremos con usted</h3>
         </div>
-    </div>
-    <hr>
-    <div class="row">
+         <hr>
         <div class="col-sm-12 col-lg-12 col-md-12">
             <form name="sentMessage" id="contactForm" novalidate>
                 <div class="row">
@@ -33,7 +32,7 @@
                     <div class="clearfix"></div>
                     <div class="col-lg-12 text-center">
                         <div id="success"></div>
-                        <button type="submit" class="btn btn-xl">Send Message</button>
+                        <button type="submit" class="btn btn-xl">Enviar Mensaje</button>
                     </div>
                 </div>
             </form>

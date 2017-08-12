@@ -4,25 +4,46 @@
  * and open the template in the editor.
  */
 
+iniciar();
 
-$('#idTraslado').val();
-$('#nombreTraslado').val();
-$('#InputNombre').val();
-$('#inputdate').val();
-$('#selectHotel').val();
-$('#inputCantPax').val();
-$('#InputEmail').val();
+function iniciar() {
 
+
+    $("#formulario").validate();
+    $("#InputEmail").rules("add", {
+        email: true,
+        required: true,
+        messages: {
+            email: "<span class='label label-danger'>Debe ingresar un email valido</span>",
+            required: "<span class='label label-danger'>Debe ingresar un email</span>"
+        }
+    });
+    $("#InputNombre").rules("add", {
+        required: true,
+        messages: {
+            required: "<span class='label label-danger'>Debe ingresar un nombre</span>"
+        }
+    });   
+    $("#inputdate").rules("add", {
+        required: true,
+        messages: {
+            required: "<span class='label label-danger'>Debe ingresar una fecha</span>"
+        }
+    });
+
+
+}
 function execute_my_onreturn(json) {
     debugger;
     if (json.collection_status == 'approved') {
         alert('Pago acreditado, le enviaremos un correo con los datos de su reserva');
-        enviarConfirmacion();
+        enviarConfirmacion('Pago en Confirmado');
     } else if (json.collection_status == 'pending') {
         alert('El usuario no completó el pago');
     } else if (json.collection_status == 'in_process') {
         alert('El pago está siendo procesado,le enviaremos un correo con los datos \n\
-                    de su reserva cuando el pago se acredite su reserva se confirmara ');
+                    de su reserva, cuando el pago se acredite su reserva se confirmara ');
+        enviarConfirmacion('Pago en Proceso');
     } else if (json.collection_status == 'rejected') {
         alert('El pago fué rechazado,puede intentar nuevamente el pago');
     } else if (json.collection_status == null) {
@@ -31,10 +52,10 @@ function execute_my_onreturn(json) {
 
 
     debugger;
-
 }
 
-function enviarConfirmacion() {
+function enviarConfirmacion(mensajePago) {
+    debugger;
     $.ajax({
         type: "POST",
         url: baseurl + "index.php/email/sendMailGmail",
@@ -46,6 +67,7 @@ function enviarConfirmacion() {
             email: $('#InputEmail').val(),
             hotel: $('#selectHotel').val(),
             cantpax: $('#inputCantPax').val(),
+            estadoPago: mensajePago,
             aclaracion: $('#imputAclaracion').val()
         },
         success: function (res) {
@@ -58,12 +80,33 @@ function enviarConfirmacion() {
     });
 }
 
+$('#link').click(function (e) {
+
+    debugger;
+
+
+    if ($("#formulario").valid()) {
+
+
+    } else {
+        e.stopImmediatePropagation();
+        alert('Debe completar corretamente el formulario');
+    }
+
+
+
+
+
+});
+
+
+
+
 function crearevento() {
     $.ajax({
         type: "POST",
         url: baseurl + "index.php/email/crearEvento",
         dataType: 'json',
-
         success: function (res) {
             debugger;
         },

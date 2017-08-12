@@ -5,13 +5,13 @@ $preference_data = array(
             "title" => "Traslado Aeropuerto Argentina",
             "quantity" => 1,
             "currency_id" => "ARS", // Available currencies at: https://api.mercadopago.com/currencies
-            "unit_price" => 10.00
+            "unit_price" => 1.00
         )
     )
 );
 $mp = new Mercadopago("2673738623774353", "lu3xy9QvaKLqfKUudd6AwBkKOAPGUw7Q");
 $preference = $mp->create_preference($preference_data);
- echo $nroTras;
+echo $nroTras;
 ?>
 
 <div class="row">
@@ -68,21 +68,21 @@ $preference = $mp->create_preference($preference_data);
             <hr>
             <div id="demo" class="collapse">
                 <div class="row">
-                   
-                    <form>
+
+                    <form action="" method="post" id="formulario" name="formulario"  class="form">
                         <input type="hidden" class="form-control" type="date"  id="idTraslado" value="<?php echo $nroTras ? $nroTras : '-1'; ?>" >
                         <input type="hidden" class="form-control" type="date"  id="nombreTraslado" value="Traslado Cataratas" >
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address/Direccion de Correo</label>
-                            <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        <div  class="form-group">
+                            <label class="control-label"  for="InputEmail">Email address/Direccion de Correo</label>
+                            <input type="email" class="form-control" id="InputEmail"   >
+                            
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1">Nombre Completo</label>
-                            <input type="text" class="form-control" id="InputNombre" placeholder="Nombre Completo">
+                            <label for="InputNombre">Nombre Completo</label>
+                            <input type="text" class="form-control" id="InputNombre" >
                         </div>
                         <div class="form-group">
-                            <label for="example-date-input" class="col-2 col-form-label">Fecha Reserva/Date</label>
+                            <label for="inputdate" class="col-2 col-form-label">Fecha Reserva/Date</label>
                             <div class="col-10">
                                 <input class="form-control" type="date"  id="inputdate">
                             </div>
@@ -114,19 +114,18 @@ $preference = $mp->create_preference($preference_data);
                         </div>
 
                         <div class="form-group">
+
                             <label for="exampleTextarea">Alguna Aclaracion</label>
                             <textarea class="form-control" id="imputAclaracion" rows="3" ></textarea>
                         </div>                                  
                         <!--            <button type="submit" class="btn btn-primary">Submit</button>-->
+                        <p><a id="link" href="<?php echo $preference['response']['init_point']; ?>"   name="MP-Checkout" class="lightblue-M-Ov-ArOn" mp-mode="modal"  onreturn="execute_my_onreturn">Pagar</a>
+                            <a href="#" class="btn btn-default" role="button">Volver Atras</a></p>
+
                     </form>
 
                 </div>
-                <div class="row">
 
-
-                    <p><a href="<?php echo $preference['response']['init_point']; ?>" name="MP-Checkout" class="lightblue-M-Ov-ArOn" mp-mode="modal"   onreturn="execute_my_onreturn">Pagar</a> <a href="#" class="btn btn-default" role="button">Volver Atras</a></p>
-                    <a  class="btn btn-default" role="button" onclick="crearevento();">Crear Evento</a></p>
-                </div>
             </div>
         </div>
     </div>
@@ -152,6 +151,19 @@ $preference = $mp->create_preference($preference_data);
         </div>
     </div>
 </div>
+<style>
+    .btn-link{
+        border:none;
+        outline:none;
+        background:none;
+        cursor:pointer;
+        color:#0000EE;
+        padding:0;
+        text-decoration:underline;
+        font-family:inherit;
+        font-size:inherit;
+    }
+</style>
 
 <script type="text/javascript">
     var baseurl = "<?php echo base_url(); ?>";

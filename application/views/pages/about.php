@@ -49,17 +49,16 @@
     <div class="col-sm-10 col-lg-10 col-md-10">
 
         <h2><strong>Nuestros Servicios</strong></h2>
-        <p>Realizamos&nbsp;<em>Servicios de Traslados</em>&nbsp;hasta el&nbsp;<strong>Parque Nacional Iguaz&uacute;</strong>, tanto del lado Argentino como as&iacute; tambi&eacute;n del lado Brasile&ntilde;o.</p>
-        <p>Tenga en cuenta que una de las principales caracter&iacute;sticas que tienen nuestros servicios, es que&nbsp;<em>usted maneja los tiempos y d&iacute;as de cada traslado</em>. Nosotros solamente aconsejamos y asesoramos cuando as&iacute; sea necesario. Porque no se olvide que est&aacute; de Vacaciones y ac&aacute; nadie le corre.</p>
-        <p>Usted podr&aacute; contratar nuestros servicios de taxi, v&iacute;a Telef&oacute;nica, Email o consultando desde esta misma p&aacute;gina en la opci&oacute;n de&nbsp;<a href="http://cataratastaxi.com.ar/contacto-viaje-iguazu/">Consultas.</a></p>
-        <p>Los traslados se pueden realizar desde el<strong>&nbsp;Aeropuerto Iguaz&uacute;</strong>&nbsp;directamente hacia las&nbsp;<strong>Cataratas (Argentina o Brasil)</strong>. Puede contratar tambi&eacute;n los servicios desde cualquier&nbsp;<strong>Hotel</strong>&nbsp;que est&eacute;n Ubicado tanto en&nbsp;<strong>Argentina como en Brasil.</strong></p>
+        <p>Realizamos&nbsp;<em>Servicios de Traslados</em>&nbsp;a todos &nbsp; los puntos de inter&eacute;s de la <strong>Triple Frontera</strong>, Nuestra empresa tiene como objetivo de su estadia en iguazu una experiencia unica.</p>
+        <p>Nos ocupamos desde el primer dia de sus traslados con la discreci&oacuten y cordialidad que nos caracteriza</p>
+        <p>Utilizamos veh&iacute;culos en excelente estado, modelos nuevos y completamente habilitados.</p>
+          <p>Brindamos  asesoramiento e información turística ,usted esta de  vacaciones lo invitamos a disfrutar el destino .</p>
+        <p>Usted podr&aacute; contratar nuestros servicios de <strong>traslados</strong>, v&iacute;a Telef&oacute;nica, Email o consultando desde esta misma p&aacute;gina en la opci&oacute;n de&nbsp;<a href="<?php echo base_url(); ?>index.php/pages/view/contact">Consultas.</a></p>
+   
+        <h2><strong>Como Trabajamos:</strong></h2>
+      <p>Los traslados se pueden realizar desde el<strong>&nbsp;Aeropuerto Iguaz&uacute;</strong>&nbsp;directamente hacia las&nbsp;<strong>Cataratas (Argentina o Brasil)</strong>. Puede contratar tambi&eacute;n los servicios desde cualquier&nbsp;<strong>Hotel</strong>&nbsp;que est&eacute;n Ubicado tanto en&nbsp;<strong>Argentina como en Brasil.</strong></p>
         <p>Una vez que coordinamos los horarios, pasamos a buscarlos por el lugar donde est&eacute;n hospedados y los trasladamos hasta el parque, ya sea Argentino o Brasile&ntilde;o. Luego se coordina el horario para pasar a buscarlos o pueden llamarnos cuando quieran realizar el regreso.</p>
-        <h2><strong>Algunos consejos &Uacute;tiles:</strong></h2>
-        <p>Tenga en cuenta que la visita al&nbsp;<strong>Parque Nacional Iguaz&uacute;</strong>&nbsp;le llevara un d&iacute;a completo, el recorrido es m&aacute;s extenso que para visitar las&nbsp;<strong>Cataratas del lado Brasile&ntilde;o.</strong></p>
-        <p>Puede verificar en nuestro almanaque disponible en el sitio, los d&iacute;as de&nbsp;<a href="http://cataratastaxi.com.ar/paseos-de-luna-llena/">Luna Llena</a>, para aprovechar uno de los paseos m&aacute;s espectaculares en el mundo, realizados<strong>&nbsp;a la luz de la luna en Cataratas.</strong></p>
-        <p>Dentro del&nbsp;<strong>Parque Nacional Iguaz&uacute;</strong>, usted dispone de varias excursiones, realizadas con gu&iacute;as que tienen un costo extra, como por ejemplo la&nbsp;<strong>Gran Aventura</strong>,&nbsp; ser&iacute;a conveniente que las puedan realizar ya que son inolvidables (pueden consultar con nuestros choferes para que los gu&iacute;en).</p>
-        <p>El&nbsp;<strong>Parque Nacional Iguaz&uacute;</strong>&nbsp;est&aacute; abierto todos los d&iacute;as del a&ntilde;o sin excepci&oacute;n.<br />&bull; Las tarifas est&aacute;n expresadas en pesos argentinos, y solamente se pagan en esa moneda y en efectivo.&nbsp; El uso de tarjetas de cr&eacute;dito y d&eacute;bito es aceptado en el interior del Parque Nacional, pero no es aplicable para el pago de ticket de acceso ni del estacionamiento.<br />&bull; Tanto la venta de entradas como el ingreso al Parque Nacional estar&aacute;n permitidos hasta las 16:30. El horario de permanencia dentro del Parque se extiende de 8:00 a 18:00.<br />&bull; Es necesaria la presentaci&oacute;n del Documento de Identidad o Pasaporte en la boleter&iacute;a al momento de adquirir su entrada. El domicilio que conste en dicha documentaci&oacute;n ser&aacute; el &uacute;nico determinante para establecer la categor&iacute;a del visitante y por ende, el valor de la entrada respectiva.<br />&bull; No est&aacute; permitido el ingreso de drones, ni su telecomando dentro del Parque Nacional en toda su extensi&oacute;n.<br />&bull; En el &aacute;rea del Portal de Acceso hay lockers disponibles con costo para guardar equipaje, como as&iacute; tambi&eacute;n caniles para mascotas, cuyo ingreso al Parque no est&aacute; permitido.</p>
-        <p>&nbsp;<img src="<?php echo base_url(); ?>assets/images/tarifario.jpg" alt="Tarifas"  /></p>
+        
     </div>
 </div>
 <!--<style>
