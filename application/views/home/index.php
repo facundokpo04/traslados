@@ -313,7 +313,7 @@
                     </h4>
                     <p>La Aripuca es el nombre de una trampa de caza de los pueblos guaraníes. Es también un complejo eco-turístico construido con el diseño de dicha trampa realizado con más de 30 especies y 500 toneladas de arboles </p>
                 </div>
-                <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod';" >Reservar</button>
+                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/Contact';" >Consultar</button>
                 <div class="ratings">
                     <p class="pull-right">12 comentarios</p>
                     <p>
@@ -335,7 +335,7 @@
                     </h4>
                     <p>Centro de Rescate, Rehabilitación y Recría de Fauna Silvestre</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-block" onclick="location.href = 'index.php/Home/prod';" >Reservar</button>
+                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/Contact';" >Consultar</button>
                 <div class="ratings">
                     <p class="pull-right">31 comentarios</p>
                     <p>

@@ -85,7 +85,7 @@ function enviarConfirmacion(mensajePago) {
             aclaracion: $('#imputAclaracion').val()
         },
         success: function (res) {
-            debugger;
+             
         },
         error: function (request, status, error) {
             debugger;
@@ -107,9 +107,7 @@ function enviarConsulta() {
             message: $('#message').val()
         },
         success: function (res) {
-            alert('Su consulta fue enviada')
-            ('#contactForm').reset()
-            debugger;
+            
         },
         error: function (request, status, error) {
             debugger;

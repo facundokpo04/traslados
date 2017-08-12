@@ -38,8 +38,9 @@ class Email extends CI_Controller {
 //cargamos la configuración para enviar con gmail
         $this->email->initialize($configGmail);
 
-        $this->email->from('facundokpo04@gmail.com');
-        $this->email->to("facundokpo04@gmail.com");
+        $this->email->from('trasladoscataratas@gmail.com', 'Traslados Cataratas');
+        $this->email->to("belu1587@gmail.com");
+        $this->email->cc("trasladoscataratas@gmail.com");
         $this->email->subject('Bienvenido/a Traslados cataratas');
         $this->email->message("<p><strong>" . $dataEmail['traslado'] . '</strong><br>Nombre: ' .
                 $dataEmail['nombre'] .
@@ -88,8 +89,9 @@ class Email extends CI_Controller {
 //cargamos la configuración para enviar con gmail
         $this->email->initialize($configGmail);
 
-        $this->email->from('facundokpo04@gmail.com');
-        $this->email->to("trasladoscataratas@gmail.com");
+        $this->email->from('trasladoscataratas@gmail.com', 'Traslados Cataratas');
+        $this->email->to("belu1587@gmail.com");
+        $this->email->cc("trasladoscataratas@gmail.com");
         $this->email->subject('Nueva Consulta desde La Pagina');
         $this->email->message("<p><strong>Consulta </strong><br>Nombre: " .
                 $dataEmail['name'] .
@@ -99,7 +101,6 @@ class Email extends CI_Controller {
                 $dataEmail['phone'] .
                 '<br>Consulta : ' .
                 $dataEmail['message'] .
-               
                 "</p>");
         $this->email->send();
 //con esto podemos ver el resultado
