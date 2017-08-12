@@ -292,7 +292,7 @@
             <h4><a href="#">No encontro el traslado que andaba buscando?</a>
             </h4>
             <p>Envienos su consulta y le cotizaremos el traslado a su medida </p>
-            <a class="btn btn-primary" target="_blank" href="<?php echo base_url(); ?>index.php/Contact">Cotizar</a>
+            <a class="btn btn-primary" target="_blank" href="<?php echo base_url(); ?>index.php/pages/view/contact">Cotizar</a>
         </div>
 
     </div>
@@ -313,7 +313,7 @@
                     </h4>
                     <p>La Aripuca es el nombre de una trampa de caza de los pueblos guaraníes. Es también un complejo eco-turístico construido con el diseño de dicha trampa realizado con más de 30 especies y 500 toneladas de arboles </p>
                 </div>
-                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/Contact';" >Consultar</button>
+                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/pages/view/contact';" >Consultar</button>
                 <div class="ratings">
                     <p class="pull-right">12 comentarios</p>
                     <p>
@@ -335,7 +335,7 @@
                     </h4>
                     <p>Centro de Rescate, Rehabilitación y Recría de Fauna Silvestre</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/Contact';" >Consultar</button>
+                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/pages/view/contact';" >Consultar</button>
                 <div class="ratings">
                     <p class="pull-right">31 comentarios</p>
                     <p>

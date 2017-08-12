@@ -125,7 +125,7 @@ $('#link').click(function (e) {
 
     } else {
         e.stopImmediatePropagation();
-        alert('Debe completar corretamente el formulario');
+        alert('Debe Completar Correctamente el formulario');
     }
 
 
