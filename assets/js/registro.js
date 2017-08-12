@@ -4,35 +4,37 @@
  * and open the template in the editor.
  */
 
-iniciar();
 
 function iniciar() {
-
-
-    $("#formulario").validate();
-    $("#InputEmail").rules("add", {
-        email: true,
-        required: true,
+    $("#formulario").validate({
+        rules: {
+            InputEmail: {required: true, email: true},
+            InputNombre: {required: true },
+            inputdate: {required: true} },
         messages: {
-            email: "<span class='label label-danger'>Debe ingresar un email valido</span>",
-            required: "<span class='label label-danger'>Debe ingresar un email</span>"
+            InputEmail: {
+                email: "<span class='label label-danger'>Debe ingresar un email valido</span>",
+                required: "<span class='label label-danger'>Debe ingresar un email</span>"
+            },
+            InputNombre: {
+                text: "<span class='label label-danger'>Debe ingresar un nombre valido</span>",
+                required: "<span class='label label-danger'>Debe ingresar un nombre</span>"
+            },
+            inputdate: {
+                date: "<span class='label label-danger'>Debe ingresar una fecha  valido</span>",
+                required: "<span class='label label-danger'>Debe ingresar un fecha</span>"
+            }
+
+        },
+        errorPlacement: function (error, element) {
+          
+                $("<br>").appendTo(element.parent().find("label"));
+                error.appendTo(element.parent().find("label"));
+            
         }
     });
-    $("#InputNombre").rules("add", {
-        required: true,
-        messages: {
-            required: "<span class='label label-danger'>Debe ingresar un nombre</span>"
-        }
-    });   
-    $("#inputdate").rules("add", {
-        required: true,
-        messages: {
-            required: "<span class='label label-danger'>Debe ingresar una fecha</span>"
-        }
-    });
 
-
-}
+};
 function execute_my_onreturn(json) {
     debugger;
     if (json.collection_status == 'approved') {
@@ -83,8 +85,6 @@ function enviarConfirmacion(mensajePago) {
 $('#link').click(function (e) {
 
     debugger;
-
-
     if ($("#formulario").valid()) {
 
 
@@ -98,10 +98,6 @@ $('#link').click(function (e) {
 
 
 });
-
-
-
-
 function crearevento() {
     $.ajax({
         type: "POST",
@@ -116,3 +112,5 @@ function crearevento() {
         }
     });
 }
+
+iniciar();

@@ -73,18 +73,18 @@ echo $nroTras;
                         <input type="hidden" class="form-control" type="date"  id="idTraslado" value="<?php echo $nroTras ? $nroTras : '-1'; ?>" >
                         <input type="hidden" class="form-control" type="date"  id="nombreTraslado" value="Traslado Cataratas" >
                         <div  class="form-group">
-                            <label class="control-label"  for="InputEmail">Email address/Direccion de Correo</label>
-                            <input type="email" class="form-control" id="InputEmail"   >
+                            <label  for="InputEmail">Email address/Direccion de Correo</label>
+                            <input type="email" class="form-control" id="InputEmail" name="InputEmail">
                             
                         </div>
-                        <div class="form-group">
+                        <div c class="form-group">
                             <label for="InputNombre">Nombre Completo</label>
-                            <input type="text" class="form-control" id="InputNombre" >
+                            <input type="text" class="form-control" id="InputNombre" name="InputNombre">
                         </div>
                         <div class="form-group">
                             <label for="inputdate" class="col-2 col-form-label">Fecha Reserva/Date</label>
                             <div class="col-10">
-                                <input class="form-control" type="date"  id="inputdate">
+                                <input class="form-control" type="date"  id="inputdate" name="inputdate">
                             </div>
                         </div>
                         <div class="form-group">
