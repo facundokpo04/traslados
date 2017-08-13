@@ -7,7 +7,8 @@ $preference_data = array(
             "currency_id" => "ARS", // Available currencies at: https://api.mercadopago.com/currencies
             "unit_price" => 1.00
         )
-    )
+    ),
+  
 );
 $mp = new Mercadopago("2673738623774353", "lu3xy9QvaKLqfKUudd6AwBkKOAPGUw7Q");
 $preference = $mp->create_preference($preference_data);
@@ -86,7 +87,7 @@ echo $nroTras;
                             <label for="inputdate" class="col-2 col-form-label">Fecha Reserva/Date</label>
 
                             <div class="col-10">
-                                <input type="date" name="inputdate" id="inputdate" min="<?php echo date("Y-m-d",strtotime ( '+2 day' , strtotime ( date("Y-m-d") ) )); ?>" max="2019-12-31" value="<?php echo date("Y-m-d",strtotime ( '+2 day' , strtotime ( date("Y-m-d") ) )); ?>">
+                                <input type="date" name="inputdate" id="inputdate" min="<?php echo date("Y-m-d", strtotime('+2 day', strtotime(date("Y-m-d")))); ?>" max="2019-12-31" value="<?php echo date("Y-m-d", strtotime('+2 day', strtotime(date("Y-m-d")))); ?>">
                             </div>
                         </div>
                         <div class="form-group">
@@ -125,7 +126,7 @@ echo $nroTras;
                     </form>
                     <div class="row">
                         <p><a id="link" href="<?php echo $preference['response']['init_point']; ?>"   name="MP-Checkout" class="lightblue-M-Ov-ArOn" mp-mode="modal"  onreturn="execute_my_onreturn">Pagar</a>
-<!--                            <button type="button" onclick="enviarConfirmacion('Pago aprobado')">prueba email</button>-->
+                            <!--                            <button type="button" onclick="enviarConfirmacion('Pago aprobado')">prueba email</button>-->
                             <a href="<?php echo base_url(); ?>index.php/Home" class="btn btn-default" role="button">Volver Atras</a></p>
                     </div>
 

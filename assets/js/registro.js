@@ -8,7 +8,7 @@ function iniciar() {
     $("#formulario").validate({
         rules: {
             InputEmail: {required: true, email: true},
-            InputNombre: {required: true, text: true},
+            InputNombre: {required: true},
             otroAlo: {required: true, text: true},
             inputdate: {required: true, date:true},
             selectHotel: {required: true }},
@@ -20,7 +20,6 @@ function iniciar() {
                 required: "<span class='label label-danger'>Debe ingresar un email</span>"
             },
             InputNombre: {
-                text: "<span class='label label-danger'>Debe ingresar un nombre valido</span>",
                 required: "<span class='label label-danger'>Debe ingresar un nombre</span>"
             },
             otroAlo: {
