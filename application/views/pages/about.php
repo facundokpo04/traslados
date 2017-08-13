@@ -47,8 +47,8 @@
 
 <div class="row">
     <div class="col-sm-10 col-lg-10 col-md-10">
-
-        <h2><strong>Nuestros Servicios</strong></h2>
+        <h1>Servicios de Traslado y Excursiónes en Puerto Iguazu</h1>
+        <h2><strong>Nuestros Servicios</strong></h2>       
         <p>Realizamos&nbsp;<em>Servicios de Traslados</em>&nbsp;a todos &nbsp; los puntos de inter&eacute;s de la <strong>Triple Frontera</strong>, Nuestra empresa tiene como objetivo de su estadia en iguazu una experiencia unica.</p>
         <p>Nos ocupamos desde el primer dia de sus traslados con la discreci&oacuten y cordialidad que nos caracteriza</p>
         <p>Utilizamos veh&iacute;culos en excelente estado, modelos nuevos y completamente habilitados.</p>

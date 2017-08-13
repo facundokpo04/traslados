@@ -2,8 +2,8 @@
 
     <div class="row">
         <div class="col-lg-12">
-            <h1>Traslados</h1>
-            <p><b>Ofrecemos la oportunidad de comprar tus traaslados en puerto iguazu antes de viajar,el precio por traslado es por vehiculo y hasta 4 personas en un mismo traslado, posibilidad de pagar con tarjeta en cuotas con mercado pago: Rapido Facil y Online</b></p>
+            <h1>Traslados Puerto Iguazu</h1>
+            <p><b>Ofrecemos la oportunidad de comprar tus traaslados en puerto iguazu antes de viajar,el precio por traslado es por vehiculo y hasta 4 personas en un mismo traslado, posibilidad de pagar con tarjeta en cuotas con mercado pago. <strong> Reserve ahora! Rapido Facil y Online</strong> Rapido Facil y Online</b></p>
             <hr>
         </div>
     </div>

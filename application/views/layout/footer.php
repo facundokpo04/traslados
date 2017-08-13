@@ -9,13 +9,15 @@
 <!-- Footer -->
 
 <footer class="text-center">
-   
+
     <div class="footer-above">
         <div class="container">
             <div class="row" >
+
+
                 <div class="footer-col col-md-4">
                     <h3>Tiempo en Iguazu</h3>
-                   <div id="TT_FCNBHwlezMpcneIK7AzF3lmFGWaKT4MlLY1Y1ZC5qEzIm5moG">Tiempo en Iguazu</div>
+                  <div class='center-block' id="TT_yiGwbxtBtWzs8ehUKASEEkE1EzaUTYWlLYkdEZyIq1DoGImI3">El tiempo - Tutiempo.net</div>
                 </div>
 
             </div>
@@ -85,7 +87,7 @@
 
 <!-- Bootstrap Core JavaScript -->
 <script src="<?php echo base_url(); ?>assets/dist/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://www.tutiempo.net/s-widget/l_FCNBHwlezMpcneIK7AzF3lmFGWaKT4MlLY1Y1ZC5qEzIm5moG"></script>
+<script type="text/javascript" src="https://www.tutiempo.net/s-widget/l_yiGwbxtBtWzs8ehUKASEEkE1EzaUTYWlLYkdEZyIq1DoGImI3"></script>
 <!-- jqueryvalidate -->
 <script src="<?php echo base_url(); ?>assets/dist/js/jquery.validate.js"></script>
 <!-- registro -->

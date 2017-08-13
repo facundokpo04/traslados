@@ -2,14 +2,15 @@
 
     <div class="row">
         <div class="col-lg-12">
-            <h1>Traslados</h1>
+            <h1>Traslados en Iguazu</h1>
             <p><b>Le Ofrecemos la posibilidad de comprar sus traslados en puerto iguazu anticipadamente, 
                     el precio por traslado es por vehiculo y hasta 4 personas en el mismo, usted cuenta con la posibilidad de pagar con 
-                    tarjeta en cuotas y otras formas de pago a travez mercado pago. Rapido Facil y Online</b></p>
+                    tarjeta en cuotas y otras formas de pago a travez mercado pago.<br>
+                    <strong>Reserve Ahora! Rapido Facil y Online</strong></b></p>
 
             <h4>Medios de Pago</h4>
            
-            <img src="https://imgmp.mlstatic.com/org-img/banners/ar/medios/785X40.jpg" title="MercadoPago - Medios de pago" alt="MercadoPago - Medios de pago" width="785" height="40"/>
+           <img class="img-responsive" src="https://imgmp.mlstatic.com/org-img/banners/ar/medios/468X60.jpg" title="MercadoPago - Medios de pago" alt="MercadoPago - Medios de pago" width="468" height="60"/>
              <hr>
             <button type="button" class="btn btn-success" onclick="window.open('https://www.mercadopago.com.ar/promociones')">Promociones Sin Interes</button>    
             

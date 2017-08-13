@@ -18,11 +18,11 @@ $preference = $mp->create_preference($preference_data);
         <div class="thumbnail">
             <img class="img-fluid"  src="<?php echo base_url(); ?>assets/images/traslado8/t8det.jpg" alt="">
             <div class="caption-full">
-                <h4 class="pull-right">$400.00</h4>
-                <h4><a href="#">Traslado Centro de Foz</a>
+                <h2 class="pull-right">$400.00</h2>
+                <h2><a href="#">Traslado Centro de Foz</a>
 
 
-                </h4>
+                </h2>
                 <p>
                     Este traslado incluye el viajes desde su Hotel en Puerto Iguazu a cualquier punto de la ciudad de Foz de Iguazu. </p>
 
@@ -95,7 +95,7 @@ $preference = $mp->create_preference($preference_data);
                             <label for="inputdate" class="col-2 col-form-label">Fecha Reserva/Date</label>
 
                             <div class="col-10">
-                                <input type="date" name="inputdate" id="inputdate" min="<?php echo date("Y-m-d"); ?>" max="2019-12-31" value="<?php echo date("Y-m-d"); ?>">
+                                 <input type="date" name="inputdate" id="inputdate" min="<?php echo date("Y-m-d",strtotime ( '+2 day' , strtotime ( date("Y-m-d") ) )); ?>" max="2019-12-31" value="<?php echo date("Y-m-d",strtotime ( '+2 day' , strtotime ( date("Y-m-d") ) )); ?>">
                             </div>
                         </div>
                         <div class="form-group">

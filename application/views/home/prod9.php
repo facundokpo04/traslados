@@ -19,10 +19,10 @@ echo $nroTras;
         <div class="thumbnail">
             <img class="img-fluid"  src="<?php echo base_url(); ?>assets/images/traslado11/t11det.jpg" alt="">
             <div class="caption-full">
-                <h3 class="pull-right">$ 700.00</h3>
-                <h3><a href="#">Traslado Represa Itaipu Binacional</a>
+                <h2 class="pull-right">$ 700.00</h2>
+                <h2><a href="#">Traslado Represa Itaipu Binacional</a>
 
-                </h3>
+                </h2>
                 <p>
                     Realizamos Servicios de traslado ida y vuelta a la <b>Rrepesa de Itaipu.</b>
                 </p>
@@ -93,7 +93,7 @@ echo $nroTras;
                             <label for="inputdate" class="col-2 col-form-label">Fecha Reserva/Date</label>
 
                             <div class="col-10">
-                                <input type="date" name="inputdate" id="inputdate" min="<?php echo date("Y-m-d"); ?>" max="2019-12-31" value="<?php echo date("Y-m-d"); ?>">
+                                <input type="date" name="inputdate" id="inputdate" min="<?php echo date("Y-m-d",strtotime ( '+2 day' , strtotime ( date("Y-m-d") ) )); ?>" max="2019-12-31" value="<?php echo date("Y-m-d",strtotime ( '+2 day' , strtotime ( date("Y-m-d") ) )); ?>">
                             </div>
                         </div>
                         <div class="form-group">
