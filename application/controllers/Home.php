@@ -7,8 +7,8 @@ class Home extends CI_Controller {
     public function __CONSTRUCT() {
         parent::__construct();
         //cargar el modelo
-     
-        $this->load->library('Mercadopago');         
+
+        $this->load->library('Mercadopago');
     }
 
     public function index() {
@@ -27,21 +27,22 @@ class Home extends CI_Controller {
         $this->load->view('layout/footer');
     }
 
-    public function prod($i) {
+    public function traslado($i) {
 
         //header
-          
-       
+
+
         $this->load->view('layout/header');
 //        $this->load->view('layout/menu');
         //definimos variable para traer la data y mantner la logica de paginacion
         //inicializacion de paginacion
 
 
-        $this->load->view('home/prod'.$i.'.php', [
+        $this->load->view('traslados/' . $i . '.php', [
             'nroTras' => $i
         ]);
 
+//        $this->load->view('home/formulario.php');
         //footer
         $this->load->view('layout/footer');
     }
@@ -49,6 +50,5 @@ class Home extends CI_Controller {
     public function registrarTraslado() {
         
     }
-   
 
 }

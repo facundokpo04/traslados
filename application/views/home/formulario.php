@@ -1,51 +1,4 @@
-<?php
-$preference_data = array(
-    "items" => array(
-        array(
-            "title" => "Traslado Aeropuerto Brasil IN",
-            "quantity" => 1,
-            "currency_id" => "ARS", // Available currencies at: https://api.mercadopago.com/currencies
-            "unit_price" => 10.00
-        )
-    )
-);
-$mp = new Mercadopago("2673738623774353", "lu3xy9QvaKLqfKUudd6AwBkKOAPGUw7Q");
-$preference = $mp->create_preference($preference_data);
-?>
-
-<div class="row">
-    <div class="col-sm-12 col-lg-12 col-md-12">
-        <div class="thumbnail">
-            <img class="img-fluid"  src="<?php echo base_url(); ?>assets/images/traslado6/t6det.jpg" alt="">
-            <div class="caption-full">
-                <h2 class="pull-right">$650.00</h2>
-                <h2><a href="#">Traslado Aeropuerto Brasil IN</a>
-                    
-                    
-                </h2>
-                <p>
-                    Este traslado incluye viaje  desde el aeropuerto de Brasil a su Hotel u otro punto de la ciudad de Puerto Iguazu. </p>
-                      <p> Nostros lo esperaremos en el Aeropuerto, con un cartel con su nombre. </p>
-                      <p>Una vez reservado el traslado nosostros nos comunicaremos con usted para que nos facilita el <strong>Numero de Vuelo</strong> y la <strong>Hora de Arribo</strong> para evitar cualquier contratiempo. </p>
-                    
-                    
-                </p>
-            </div>
-            <div class="ratings">
-                <p class="pull-right">3 Comentarios</p>
-                <p>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                    4.0 stars
-                </p>
-            </div>
-
-        </div>
-
-       <div class="well">
+    <div class="well">
 
             <h4><a href="#demo" data-toggle="collapse">Complete el Formulario de Reserva</a>
             </h4>
@@ -55,8 +8,8 @@ $preference = $mp->create_preference($preference_data);
                 <div class="row">
 
                     <form action="" method="post" id="formulario" name="formulario"  class="form">
-                        <input type="hidden" class="form-control" type="date"  id="idTraslado" value="<?php echo $nroTras ? $nroTras : '-1'; ?>" >
-                        <input type="hidden" class="form-control" type="date"  id="nombreTraslado" value="<?php echo $preference_data['items'][0]['title']; ?>" >
+                        <input type="hidden" class="form-control" type="text"  id="idTraslado" value="<?php echo $nroTras ? $nroTras : '-1'; ?>" >
+                        <input type="hidden" class="form-control" type="text"  id="nombreTraslado" value="<?php echo $preference_data['items'][0]['title']; ?>" >
                         <div  class="form-group">
                             <label  for="InputEmail">Email address/Direccion de Correo</label>
                             <input type="email" class="form-control" id="InputEmail" name="InputEmail">
@@ -71,7 +24,7 @@ $preference = $mp->create_preference($preference_data);
                             <label for="inputdate" class="col-2 col-form-label">Fecha Reserva/Date</label>
 
                             <div class="col-10">
-                                <input type="date" name="inputdate" id="inputdate" min="<?php echo date("Y-m-d",strtotime ( '+2 day' , strtotime ( date("Y-m-d") ) )); ?>" max="2019-12-31" value="<?php echo date("Y-m-d",strtotime ( '+2 day' , strtotime ( date("Y-m-d") ) )); ?>">
+                                <input type="date" name="inputdate" id="inputdate" min="<?php echo date("Y-m-d", strtotime('+2 day', strtotime(date("Y-m-d")))); ?>" max="2019-12-31" value="<?php echo date("Y-m-d", strtotime('+2 day', strtotime(date("Y-m-d")))); ?>">
                             </div>
                         </div>
                         <div class="form-group">
@@ -109,8 +62,8 @@ $preference = $mp->create_preference($preference_data);
 
                     </form>
                     <div class="row">
-                        <p><a id="link" href="<?php echo $preference['response']['init_point']; ?>"   name="MP-Checkout" class="lightblue-M-Ov-ArOn" mp-mode="modal"  onreturn="execute_my_onreturn">Pagar</a>
-<!--                            <button type="button" onclick="enviarConfirmacion('Pago aprobado')">prueba email</button>-->
+                        <p><a id="link" href="<?php echo $preference['response']['init_point']; ?>"   name="MP-Checkout" class="lightblue-M-Ov-ArOn" mp-mode="modal" onclick="window.scrollTo(0, 0)" onreturn="execute_my_onreturn">Pagar</a>
+                            <!--                            <button type="button" onclick="enviarConfirmacion('Pago aprobado')">prueba email</button>-->
                             <a href="<?php echo base_url(); ?>index.php/Home" class="btn btn-default" role="button">Volver Atras</a></p>
                     </div>
 
@@ -121,3 +74,10 @@ $preference = $mp->create_preference($preference_data);
     </div>
 </div>
 
+
+
+
+
+<script type="text/javascript">
+    var baseurl = "<?php echo base_url(); ?>";
+</script>

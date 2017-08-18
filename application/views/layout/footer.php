@@ -63,7 +63,7 @@
     </div>
 </footer>
 <!-- Render.js de mercado pago -->
-<script type="text/javascript">
+<!--<script type="text/javascript">
     (function () {
         function $MPC_load() {
             window.$MPC_loaded !== true && (function () {
@@ -78,7 +78,7 @@
         }
         window.$MPC_loaded !== true ? (window.attachEvent ? window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;
     })();
-</script>
+</script>-->
 <!-- /.container -->
 
 <!-- jQuery -->
@@ -96,6 +96,7 @@
 <script src="<?php echo base_url(); ?>assets/dist/datepicker/bootstrap-datepicker.js"></script>
 <script src="<?php echo base_url(); ?>assets/dist/datetimepicker/bootstrap-datetimepicker.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
+<script type="text/javascript" src="https://www.mercadopago.com/org-img/jsapi/mptools/buttons/render.js"></script>
 </body>
 
 </html>
