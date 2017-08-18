@@ -18,7 +18,7 @@ $preference = $mp->create_preference($preference_data);
         <div class="thumbnail">
             <img class="img-fluid"  src="<?php echo base_url(); ?>assets/images/traslado4/t2det.jpg" alt="">
             <div class="caption-full">
-                <h2 class="pull-right">$450.00</h2>
+                <h2 class="pull-right">400.00</h2>
                 <h2><a href="#">Traslado Al Aeropuerto</a>
                     
                     

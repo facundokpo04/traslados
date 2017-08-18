@@ -30,7 +30,7 @@
                     </h5>
                     <p>Traslado ida y vuelta a Cataratas Argentina .</p>
                 </div>
-                <a href="<?php echo base_url(); ?>index.php/Home/tralado/cataratasargentinas" class="btn btn-primary btn-block" role="button">Reservar</a>
+                <a href="<?php echo base_url(); ?>index.php/Home/traslado/cataratasargentinas" class="btn btn-primary btn-block" role="button">Reservar</a>
 <!--                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/Home/prod/1';" >Reservar</button>-->
                 <div class="ratings">
                     <p class="pull-right">15 Comentarios</p>

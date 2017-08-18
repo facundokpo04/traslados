@@ -18,7 +18,7 @@ $preference = $mp->create_preference($preference_data);
         <div class="thumbnail">
             <img class="img-fluid"  src="<?php echo base_url(); ?>assets/images/traslado9/t9det.jpg" alt="">
             <div class="caption-full">
-                <h2 class="pull-right">$ 650.00</h2>
+                <h2 class="pull-right">$ 750.00</h2>
                 <h2><a href="#">Traslado Cataratas Brasil</a>
 
                 </h2>
