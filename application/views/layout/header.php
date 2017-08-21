@@ -9,7 +9,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Shop Homepage - Start Bootstrap Template</title>
+        <title>Traslados en Iguazu : Misiones : Excursiones en Cataratas : Turismo en Iguazu : Paga en Cuotas  </title>
 
         <!-- Bootstrap Core CSS -->
         <!-- jqueryLoading -  -->
@@ -59,15 +59,15 @@
                             <a href="#page-top"></a>
                         </li>
                         <li class="page-scroll">
-                            <a href="<?php echo base_url(); ?>index.php/Home">Inicio</a>
+                            <a href="<?php echo base_url(); ?>Home">Inicio</a>
                         </li>
                         <li class="page-scroll">
-                            <a href="<?php echo base_url(); ?>index.php/pages/view/about">Sobre Nosotros</a>
+                            <a href="<?php echo base_url(); ?>pages/view/about">Sobre Nosotros</a>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lugares de Interes <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li ><a style="color: #1c1a1a;" href="<?php echo base_url(); ?>index.php/pages/view/traslado1">Cataratas Argentinas</li>
+                                <li ><a style="color: #1c1a1a;" href="<?php echo base_url(); ?>pages/view/traslado1">Cataratas Argentinas</li>
                                 <li><a style="color: #1c1a1a;"href="#">La Aripuca</a></li>
                                 <li><a style="color: #1c1a1a;"href="#">Güira Oga </a></li>
                                 <li><a style="color: #1c1a1a;"href="#">Biocentro</a></li>
@@ -95,7 +95,7 @@
                             <a href="#about">Info Util</a>
                         </li>
                         <li class="page-scroll">
-                            <a href="<?php echo base_url(); ?>index.php/pages/view/contact">Contacto</a>
+                            <a href="<?php echo base_url(); ?>pages/view/contact">Contacto</a>
                         </li>
                     </ul>
                 </div>

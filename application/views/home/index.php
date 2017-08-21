@@ -30,7 +30,7 @@
                     </h5>
                     <p>Traslado ida y vuelta a Cataratas Argentina .</p>
                 </div>
-                <a href="<?php echo base_url(); ?>index.php/Home/traslado/cataratasargentinas" class="btn btn-primary btn-block" role="button">Reservar</a>
+                <a href="<?php echo base_url(); ?>Home/traslado/cataratasargentinas" class="btn btn-primary btn-block" role="button">Reservar</a>
 <!--                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/Home/prod/1';" >Reservar</button>-->
                 <div class="ratings">
                     <p class="pull-right">15 Comentarios</p>
@@ -55,7 +55,7 @@
                     </h5>
                     <p>Traslado desde el aeropuerto de Puerto Iguazu a cualquier punto de la ciudad</p>
                 </div>
-                <a href="<?php echo base_url(); ?>index.php/Home/traslado/aeropuertoargentino" class="btn btn-primary btn-block" role="button">Reservar</a>
+                <a href="<?php echo base_url(); ?>Home/traslado/aeropuertoargentino" class="btn btn-primary btn-block" role="button">Reservar</a>
                 <div class="ratings">
                     <p class="pull-right">6 comentarios</p>
                     <p>
@@ -78,7 +78,7 @@
                     </h5>
                     <p>Tour por la ciudad de puerto Iguazu. Visitanto tres puntos turisticos, El Hito 3 fronteras,La Aripuca y el Dutty Free Shop</p>
                 </div>
-                <a href="<?php echo base_url(); ?>index.php/Home/traslado/citytouriguazu" class="btn btn-primary btn-block" role="button">Reservar</a>
+                <a href="<?php echo base_url(); ?>Home/traslado/citytouriguazu" class="btn btn-primary btn-block" role="button">Reservar</a>
                 <div class="ratings">
                     <p class="pull-right">18 comentarios</p>
                     <p>
@@ -100,7 +100,7 @@
                     </h5>
                     <p>Traslado desde del Aeropuerto de Brasil a la ciudad e Puerto Iguazu</p>
                 </div>
-                <a href="<?php echo base_url(); ?>index.php/Home/traslado/aeropuertobrasilin" class="btn btn-primary btn-block" role="button">Reservar</a>
+                <a href="<?php echo base_url(); ?>Home/traslado/aeropuertobrasilin" class="btn btn-primary btn-block" role="button">Reservar</a>
                 <div class="ratings">
                     <p class="pull-right">18 comentarios</p>
                     <p>
@@ -122,7 +122,7 @@
                     </h5>
                     <p>Traslado desde la ciudad de Puerto Iguazu hasta el Aeropuerto de Brasil</p>
                 </div>
-                <a href="<?php echo base_url(); ?>index.php/Home/traslado/aeropuertobrasilout" class="btn btn-primary btn-block" role="button">Reservar</a>
+                <a href="<?php echo base_url(); ?>Home/traslado/aeropuertobrasilout" class="btn btn-primary btn-block" role="button">Reservar</a>
                 <div class="ratings">
                     <p class="pull-right">18 comentarios</p>
                     <p>
@@ -144,7 +144,7 @@
                     </h5>
                     <p>Traslado de Iguazu al centro u otro punto de interes en Foz de Iguazu</p>
                 </div>
-                <a href="<?php echo base_url(); ?>index.php/Home/traslado/centrofoziguazu" class="btn btn-primary btn-block" role="button">Reservar</a>
+                <a href="<?php echo base_url(); ?>Home/traslado/centrofoziguazu" class="btn btn-primary btn-block" role="button">Reservar</a>
                 <div class="ratings">
                     <p class="pull-right">18 comentarios</p>
                     <p>
@@ -166,7 +166,7 @@
                     </h5>
                     <p>Traslado desde Iguazu a las Cataratas Brasileras ida y vuelta</p>
                 </div>
-                <a href="<?php echo base_url(); ?>index.php/Home/traslado/cataratasbrasil" class="btn btn-primary btn-block" role="button">Reservar</a>
+                <a href="<?php echo base_url(); ?>Home/traslado/cataratasbrasil" class="btn btn-primary btn-block" role="button">Reservar</a>
                 <div class="ratings">
                     <p class="pull-right">18 comentarios</p>
                     <p>
@@ -188,7 +188,7 @@
                     </h5>
                     <p>Paseo de compras por Ciudad del Este 3hs de Espera</p>
                 </div>
-               <a href="<?php echo base_url(); ?>index.php/Home/traslado/ciudaddeleste" class="btn btn-primary btn-block" role="button">Reservar</a>
+               <a href="<?php echo base_url(); ?>Home/traslado/ciudaddeleste" class="btn btn-primary btn-block" role="button">Reservar</a>
                 <div class="ratings">
                     <p class="pull-right">18 comentarios</p>
                     <p>
@@ -210,7 +210,7 @@
                     </h5>
                     <p>Traslado y visita a la  represa Itaipu Binacional desde Puerto Iguazu</p>
                 </div>
-                <a href="<?php echo base_url(); ?>index.php/Home/traslado/itaipu" class="btn btn-primary btn-block" role="button">Reservar</a>
+                <a href="<?php echo base_url(); ?>Home/traslado/itaipu" class="btn btn-primary btn-block" role="button">Reservar</a>
                 <div class="ratings">
                     <p class="pull-right">18 comentarios</p>
                     <p>
@@ -232,7 +232,7 @@
                     </h5>
                     <p>Traslado desde Puerto Iguazu , Visitando Cataratas Brasileras y Represa de Itaipu, ida y vuelta</p>
                 </div>
-                <a href="<?php echo base_url(); ?>index.php/Home/traslado/cataratasbrasilitaipu" class="btn btn-primary btn-block" role="button">Reservar</a>
+                <a href="<?php echo base_url(); ?>Home/traslado/cataratasbrasilitaipu" class="btn btn-primary btn-block" role="button">Reservar</a>
                 <div class="ratings">
                     <p class="pull-right">18 comentarios</p>
                     <p>
@@ -255,7 +255,7 @@
                     </h5>
                     <p>Traslado Ida y Vuelta desde Puerto Iguazu hasta las Minas de Wanda</p>
                 </div>
-                <a href="<?php echo base_url(); ?>index.php/Home/traslado/minaswanda" class="btn btn-primary btn-block" role="button">Reservar</a>
+                <a href="<?php echo base_url(); ?>Home/traslado/minaswanda" class="btn btn-primary btn-block" role="button">Reservar</a>
                 <div class="ratings">
                     <p class="pull-right">18 comentarios</p>
                     <p>
@@ -277,7 +277,7 @@
                     </h5>
                     <p>Traslado exclusivo desde Puerto Iguazu, Combinado Visitando Minas de Wanda y Ruinas de San Ignacio localizado a 290Km de Iguazu</p>
                 </div>
-                <a href="<?php echo base_url(); ?>index.php/Home/traslado/wandasanignacio" class="btn btn-primary btn-block" role="button">Reservar</a>
+                <a href="<?php echo base_url(); ?>Home/traslado/wandasanignacio" class="btn btn-primary btn-block" role="button">Reservar</a>
                 <div class="ratings">
                     <p class="pull-right">18 comentarios</p>
                     <p>
@@ -294,7 +294,7 @@
             <h4><a href="#">No encontro el traslado que andaba buscando?</a>
             </h4>
             <p>Envienos su consulta y le cotizaremos el traslado a su medida </p>
-            <a class="btn btn-primary" target="_blank" href="<?php echo base_url(); ?>index.php/pages/view/contact">Cotizar</a>
+            <a class="btn btn-primary" target="_blank" href="<?php echo base_url(); ?>/pages/view/contact">Cotizar</a>
         </div>
 
     </div>
@@ -315,7 +315,7 @@
                     </h4>
                     <p>La Aripuca es el nombre de una trampa de caza de los pueblos guaraníes. Es también un complejo eco-turístico construido con el diseño de dicha trampa realizado con más de 30 especies y 500 toneladas de arboles </p>
                 </div>
-                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/pages/view/contact';" >Consultar</button>
+                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>/pages/view/contact';" >Consultar</button>
                 <div class="ratings">
                     <p class="pull-right">12 comentarios</p>
                     <p>
@@ -337,7 +337,7 @@
                     </h4>
                     <p>Centro de Rescate, Rehabilitación y Recría de Fauna Silvestre</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>index.php/pages/view/contact';" >Consultar</button>
+                <button type="button" class="btn btn-primary btn-block" onclick="location.href = '<?php echo base_url(); ?>/pages/view/contact';" >Consultar</button>
                 <div class="ratings">
                     <p class="pull-right">31 comentarios</p>
                     <p>
