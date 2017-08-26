@@ -98,6 +98,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
 <script type="text/javascript" src="https://www.mercadopago.com/org-img/jsapi/mptools/buttons/render.js"></script>
 
+<!-- sweetalert -->
+<script src="<?php echo base_url(); ?>assets/dist/js/sweetalert.min.js"></script>
+
 <script type="text/javascript">
     var baseurl = "<?php echo base_url(); ?>";
 </script>

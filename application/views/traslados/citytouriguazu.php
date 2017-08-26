@@ -5,7 +5,7 @@ $preference_data = array(
             "title" => "Traslado City Tour Puerto Iguazu",
             "quantity" => 1,
             "currency_id" => "ARS", // Available currencies at: https://api.mercadopago.com/currencies
-            "unit_price" => 10.00
+            "unit_price" => 450.00
         )
     )
 );
@@ -18,7 +18,7 @@ $preference = $mp->create_preference($preference_data);
         <div class="thumbnail">
             <img class="img-fluid"  src="<?php echo base_url(); ?>assets/images/traslado5/t5d.jpg" alt="">
             <div class="caption-full">
-                <h2 class="pull-right">$ 400.00</h2>
+                <h2 class="pull-right">$ 450.00</h2>
                 <h2><a href="#">City Tour Puerto Iguazu</a>
 
                 </h2>

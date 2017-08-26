@@ -5,7 +5,7 @@ $preference_data = array(
             "title" => "Traslado Cataratas Brasil",
             "quantity" => 1,
             "currency_id" => "ARS", // Available currencies at: https://api.mercadopago.com/currencies
-            "unit_price" => 10.00
+            "unit_price" => 800.00
         )
     )
 );
@@ -18,7 +18,7 @@ $preference = $mp->create_preference($preference_data);
         <div class="thumbnail">
             <img class="img-fluid"  src="<?php echo base_url(); ?>assets/images/traslado9/t9det.jpg" alt="">
             <div class="caption-full">
-                <h2 class="pull-right">$ 750.00</h2>
+                <h2 class="pull-right">$ 800.00</h2>
                 <h2><a href="#">Traslado Cataratas Brasil</a>
 
                 </h2>

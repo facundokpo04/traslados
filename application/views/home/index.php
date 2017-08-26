@@ -73,7 +73,7 @@
             <div class="thumbnail">
                 <img src="<?php echo base_url(); ?>assets/images/traslado5/citytour.jpg" alt="http://placehold.it/320x150">
                 <div class="caption">
-                    <h4 class="pull-right">$400</h4>
+                    <h4 class="pull-right">$450</h4>
                     <h5><a href="#">City tour/Puerto Iguazu</a>
                     </h5>
                     <p>Tour por la ciudad de puerto Iguazu. Visitanto tres puntos turisticos, El Hito 3 fronteras,La Aripuca y el Dutty Free Shop</p>
@@ -95,7 +95,7 @@
             <div class="thumbnail">
                 <img src="<?php echo base_url(); ?>assets/images/traslado6/aeropuertobrasil.jpg" alt="">
                 <div class="caption">
-                    <h4 class="pull-right">$650</h4>
+                    <h4 class="pull-right">$700</h4>
                     <h5><a href="#">Aeropuerto Brasil In</a>
                     </h5>
                     <p>Traslado desde del Aeropuerto de Brasil a la ciudad e Puerto Iguazu</p>
@@ -139,7 +139,7 @@
             <div class="thumbnail">
                 <img src="<?php echo base_url(); ?>assets/images/traslado8/centrofoz.jpg" alt="">
                 <div class="caption">
-                    <h4 class="pull-right">$400</h4>
+                    <h4 class="pull-right">$450</h4>
                     <h5><a href="#">Centro de Foz</a>
                     </h5>
                     <p>Traslado de Iguazu al centro u otro punto de interes en Foz de Iguazu</p>
@@ -161,7 +161,7 @@
             <div class="thumbnail">
                 <img src="<?php echo base_url(); ?>assets/images/traslado9/cataratasbrasil.jpg" alt="">
                 <div class="caption">
-                    <h4 class="pull-right">$750</h4>
+                    <h4 class="pull-right">$800</h4>
                     <h5><a href="#">Cataratas Brasil</a>
                     </h5>
                     <p>Traslado desde Iguazu a las Cataratas Brasileras ida y vuelta</p>
@@ -183,7 +183,7 @@
             <div class="thumbnail">
                 <img src="<?php echo base_url(); ?>assets/images/traslado10/ciudaddeleste.jpg" alt="">
                 <div class="caption">
-                    <h4 class="pull-right">$800</h4>
+                    <h4 class="pull-right">$750</h4>
                     <h5><a href="#">Compras Ciudad de Este</a>
                     </h5>
                     <p>Paseo de compras por Ciudad del Este 3hs de Espera</p>
@@ -205,7 +205,7 @@
             <div class="thumbnail">
                 <img src="<?php echo base_url(); ?>assets/images/traslado11/itaipu.jpg" alt="">
                 <div class="caption">
-                    <h4 class="pull-right">$700</h4>
+                    <h4 class="pull-right">$650</h4>
                     <h5><a href="#">Itaipu</a>
                     </h5>
                     <p>Traslado y visita a la  represa Itaipu Binacional desde Puerto Iguazu</p>
@@ -227,8 +227,8 @@
             <div class="thumbnail">
                 <img src="<?php echo base_url(); ?>assets/images/traslado12/itaipucatartas.jpg" alt="">
                 <div class="caption">
-                    <h4 class="pull-right">$1200</h4>
-                    <h5><a href="#">Cataras Brasil + Itaipu</a>
+                    <h4 class="pull-right">$1300</h4>
+                    <h5><a href="#">Cataras Brasil + Itaipu + Ciudad del Este</a>
                     </h5>
                     <p>Traslado desde Puerto Iguazu , Visitando Cataratas Brasileras y Represa de Itaipu, ida y vuelta</p>
                 </div>
@@ -250,7 +250,7 @@
             <div class="thumbnail">
                 <img src="<?php echo base_url(); ?>assets/images/traslado13/minaswanda.jpg" alt="">
                 <div class="caption">
-                    <h4 class="pull-right">$700</h4>
+                    <h4 class="pull-right">$650</h4>
                     <h5><a href="#">Minas Wanda</a>
                     </h5>
                     <p>Traslado Ida y Vuelta desde Puerto Iguazu hasta las Minas de Wanda</p>
@@ -272,7 +272,7 @@
             <div class="thumbnail">
                 <img src="<?php echo base_url(); ?>assets/images/traslado15/sanignacio.jpg" alt="">
                 <div class="caption">
-                    <h4 class="pull-right">$4000</h4>
+                    <h4 class="pull-right">$3900</h4>
                     <h5><a href="#">Minas Wanda + San Ignacio</a>
                     </h5>
                     <p>Traslado exclusivo desde Puerto Iguazu, Combinado Visitando Minas de Wanda y Ruinas de San Ignacio localizado a 290Km de Iguazu</p>

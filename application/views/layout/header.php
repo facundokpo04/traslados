@@ -36,6 +36,9 @@
         <!-- Date Picker -->
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/dist/datepicker/datepicker3.css">
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/dist/datetimepicker/bootstrap-datetimepicker.min.css">
+        
+        <!-- sweetalert -  -->
+        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/dist/css/sweetalert.css">
     </head>
 
     <body style="background-image: url(<?php echo base_url(); ?>assets/images/fondo.jpg);" >

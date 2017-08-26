@@ -5,7 +5,7 @@ $preference_data = array(
             "title" => "Traslado Represa Itaipu Binacional + Cataratas Brasil",
             "quantity" => 1,
             "currency_id" => "ARS", // Available currencies at: https://api.mercadopago.com/currencies
-            "unit_price" => 10.00
+            "unit_price" => 1300.00
         )
     )
 );
@@ -19,7 +19,7 @@ echo $nroTras;
         <div class="thumbnail">
             <img class="img-fluid"  src="<?php echo base_url(); ?>assets/images/traslado9/t9det.jpg" alt="">
             <div class="caption-full">
-                <h2 class="pull-right">$ 1200.00</h2>
+                <h2 class="pull-right">$ 1300.00</h2>
                 <h2><a href="#">Traslado Represa Itaipu Binacional + Cataratas de Brasil</a>
 
                 </h2>

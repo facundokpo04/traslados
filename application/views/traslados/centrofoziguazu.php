@@ -5,7 +5,7 @@ $preference_data = array(
             "title" => "Traslado Centro de Foz",
             "quantity" => 1,
             "currency_id" => "ARS", // Available currencies at: https://api.mercadopago.com/currencies
-            "unit_price" => 10.00
+            "unit_price" => 400.00
         )
     )
 );
