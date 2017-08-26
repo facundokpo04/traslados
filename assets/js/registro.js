@@ -10,9 +10,8 @@ function iniciar() {
             InputEmail: {required: true, email: true},
             InputNombre: {required: true},
             otroAlo: {required: true, text: true},
-            inputdate: {required: true, date:true},
-            selectHotel: {required: true }},
-
+            inputdate: {required: true, date: true},
+            selectHotel: {required: true}},
 
         messages: {
             InputEmail: {
@@ -26,11 +25,11 @@ function iniciar() {
                 text: "<span class='label label-danger'>Debe ingresar un texto valido</span>",
                 required: "<span class='label label-danger'>Debe ingresar un texto</span>"
             },
-              inputdate: {
-                  date: "<span class='label label-danger'>Debe ingresar una fecha valida</span>",
+            inputdate: {
+                date: "<span class='label label-danger'>Debe ingresar una fecha valida</span>",
                 required: "<span class='label label-danger'>Debe elegir una fecha de traslado</span>"
             },
-            selectHotel:{
+            selectHotel: {
                 required: "<span class='label label-danger'>Debe seleccionar un Hotel, si no esta en la lista ponga Otro</span>"
             }
 
@@ -84,7 +83,7 @@ function enviarConfirmacion(mensajePago) {
             aclaracion: $('#imputAclaracion').val()
         },
         success: function (res) {
-             
+
         },
         error: function (request, status, error) {
             debugger;
@@ -106,7 +105,7 @@ function enviarConsulta() {
             message: $('#message').val()
         },
         success: function (res) {
-            
+
         },
         error: function (request, status, error) {
             debugger;
@@ -146,5 +145,64 @@ function crearevento() {
         }
     });
 }
+function base_url(url) {
+    return '<?php echo base_url(); ?>;' + url;
+}
+function redirect(href) {
+    window.location.href = '<?php echo base_url(); ?>;' + href;
+}
+
+function AjaxPopupModal(id, title)
+{
+
+
+    $.ajax({
+        type: "POST",
+        url: baseurl + "index.php/Entradas/get_entradasid/" + id,
+        dataType: 'json',
+        data: {'<?php echo $this->security->get_csrf_token_name(); ?>': '<?php echo $this->security->get_csrf_hash(); ?>'},
+        success: function (res) {
+            debugger;
+            $("#" + id).remove();
+            $("body").append('<div data-backdrop="static" id="' + id + '" class="modal fade"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title">' + title + '</h4></div><div class="modal-body"></div></div></div></div>');
+            $("#" + id).modal();
+            // Cargando
+            $("#" + id).find('.modal-body').html('<img src="'
+                    +baseurl+
+                    'assets/uploads/imagenes/' +
+                    res[0].Imagen
+                    +
+                    '" class="img-thumbnail" />' +
+                    '<p class="well well-sm">' +
+                    res[0].Descripcion
+                    + '</p>' +
+                    res[0].Contenido)
+
+
+        },
+        error: function (request, status, error) {
+//            sweetAlert("Oops...", "Ocurrio un Error Inesperado!", "error");
+            console.log(error);
+        }
+    });
+
+
+//    $("#" + id).remove();
+//    $("body").append('<div data-backdrop="static" id="' + id + '" class="modal fade"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title">' + title + '</h4></div><div class="modal-body"></div></div></div></div>');
+//    $("#" + id).modal();
+//    // Cargando
+//    $("#" + id).find('.modal-body').html('<img data-content=' +
+//            desc +
+//            ' src="<?php echo base_url("assets/uploads/imagenes/" . ' + imagen + '); ?>" class="img-thumbnail" />' +
+//            '<p class="well well-sm">' +
+//            desc
+//            + '</p>' +
+//            contenido)
+}
+$("#news .item").click(function () {
+    debugger;
+    AjaxPopupModal($(this).data('id'), $(this).data('nombre'));
+})
+
 
 iniciar();

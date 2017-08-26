@@ -9,6 +9,7 @@ class Home extends CI_Controller {
         //cargar el modelo
 
         $this->load->library('Mercadopago');
+        $this->load->model('Entradas_model');
     }
 
     public function index() {
@@ -19,9 +20,9 @@ class Home extends CI_Controller {
 //        $this->load->view('layout/menu');
         //definimos variable para traer la data y mantner la logica de paginacion
         //inicializacion de paginacion
+        $data['excursiones'] = $this->Entradas_model->get_excursiones();
 
-
-        $this->load->view('home/index.php');
+        $this->load->view('home/index.php',$data);
 
         //footer
         $this->load->view('layout/footer');
@@ -38,6 +39,7 @@ class Home extends CI_Controller {
         //inicializacion de paginacion
 
 
+        
         $this->load->view('traslados/' . $i . '.php', [
             'nroTras' => $i
         ]);

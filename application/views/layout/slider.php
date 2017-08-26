@@ -10,9 +10,9 @@
             <div class="carousel-inner">
                 <div class="item active">
                     <!-- Set the first background image using inline CSS below. -->
-                    <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+                    <div class="fill" style="background-image:url(<?php echo base_url(); ?>assets/uploads/imagenes/slider/cataratas.jpg);"></div>
                     <div class="carousel-caption">
-                        <h2>Caption 1</h2>
+                        <h2>Cataratas del Iguazu</h2>
                     </div>
                 </div>
                 <div class="item">

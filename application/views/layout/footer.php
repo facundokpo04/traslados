@@ -17,7 +17,7 @@
 
                 <div class="footer-col col-md-4">
                     <h3>Tiempo en Iguazu</h3>
-                  <div class='center-block' id="TT_yiGwbxtBtWzs8ehUKASEEkE1EzaUTYWlLYkdEZyIq1DoGImI3">El tiempo - Tutiempo.net</div>
+                    <div class='center-block' id="TT_yiGwbxtBtWzs8ehUKASEEkE1EzaUTYWlLYkdEZyIq1DoGImI3">El tiempo - Tutiempo.net</div>
                 </div>
 
             </div>
@@ -97,6 +97,11 @@
 <script src="<?php echo base_url(); ?>assets/dist/datetimepicker/bootstrap-datetimepicker.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
 <script type="text/javascript" src="https://www.mercadopago.com/org-img/jsapi/mptools/buttons/render.js"></script>
+
+<script type="text/javascript">
+    var baseurl = "<?php echo base_url(); ?>";
+</script>
+
 </body>
 
 </html>
