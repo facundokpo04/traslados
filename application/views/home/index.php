@@ -255,7 +255,7 @@
                     </h5>
                     <p>Traslado Ida y Vuelta desde Puerto Iguazu hasta las Minas de Wanda</p>
                 </div>
-                <a href="<?php echo base_url(); ?>index.php/Home/traslado/minaswanda" class="btn btn-primary btn-block" role="button">Reservar</a>
+                <a href="<?php echo base_url(); ?>index.php/Home/traslado/minasdewanda" class="btn btn-primary btn-block" role="button">Reservar</a>
                 <div class="ratings">
                     <p class="pull-right">18 comentarios</p>
                     <p>

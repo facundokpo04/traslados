@@ -13,7 +13,7 @@ $mp = new Mercadopago("2673738623774353", "lu3xy9QvaKLqfKUudd6AwBkKOAPGUw7Q");
 $preference = $mp->create_preference($preference_data);
 echo $nroTras;
 ?>
-
+<div class="container">
 <div class="row">
     <div class="col-sm-12 col-lg-12 col-md-12">
         <div class="thumbnail">
@@ -75,7 +75,7 @@ echo $nroTras;
 
         </div>
 
-
+      </div>
      <?php
         $this->load->view('home/formulario.php', [
             'preference' => $preference,

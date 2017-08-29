@@ -27,9 +27,9 @@ class Entradas extends CI_Controller {
 
         $this->grocery_crud->set_table('entrada');
         $this->grocery_crud->columns('Tipo', 'Nombre', 'Descripcion', 'Contenido', 'Tags', 'Fecha', 'Imagen', 'Categoria_id');
-        $this->grocery_crud->display_as('Categoria_id', 'Categoria Nombre');
+        $this->grocery_crud->display_as('Categoria_id', 'categoria Nombre');
         $this->grocery_crud->set_subject('entrada');
-        $this->grocery_crud->set_relation('Categoria_id', 'Categoria', 'Nombre');
+        $this->grocery_crud->set_relation('Categoria_id', 'categoria', 'Nombre');
 
         $this->grocery_crud->set_field_upload('Imagen', 'assets/uploads/imagenes');
         $output = $this->grocery_crud->render();

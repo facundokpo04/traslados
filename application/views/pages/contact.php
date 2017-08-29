@@ -1,4 +1,4 @@
-
+<div class="container">
 <hr>
 <hr>
 <hr>
@@ -52,6 +52,7 @@
 </div>
 
 </div>
+
 <style>
     .map iframe.googlemaps {
         width: 100%;

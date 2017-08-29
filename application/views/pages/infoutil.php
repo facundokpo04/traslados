@@ -1,4 +1,4 @@
-
+<div class="container">
 <div class="row">
     <hr>
     <hr>
@@ -25,4 +25,4 @@
     <?php endforeach; ?>
 </div>
 
-
+</div>

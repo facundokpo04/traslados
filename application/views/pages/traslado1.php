@@ -58,7 +58,7 @@
     </a>
 </div>
 
-
+<div class="container">
 <div class="row">
     <div class="col-sm-10 col-lg-10 col-md-10">
         <h2>Informaci&oacute;n del Parque Nacional Iguaz&uacute;</h2>
@@ -121,3 +121,4 @@
         <p>&nbsp;<img src="<?php echo base_url(); ?>assets/images/mapacataratas.jpg" alt="Mapa"  /></p>
     </div>
 </div>
+    </div>
