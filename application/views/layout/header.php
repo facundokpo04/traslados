@@ -36,7 +36,7 @@
         <!-- Date Picker -->
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/dist/datepicker/datepicker3.css">
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/dist/datetimepicker/bootstrap-datetimepicker.min.css">
-        
+
         <!-- sweetalert -  -->
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/dist/css/sweetalert.css">
     </head>
@@ -46,21 +46,22 @@
         <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
             <div class="container">
 
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header page-scroll">
+                <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                     </button>
-
+                    <a class="navbar-brand"><img src="<?php echo base_url(); ?>assets/uploads/imagenes/logo/logo.png" alt="Traslados Cataratas">
+                    </a>
                 </div>
 
-                <a class="navbar-brand" href="#" style="margin-top:-15px;">
-                    <img alt="Traslados Cataratas" src="<?php echo base_url(); ?>assets/uploads/imagenes/logo/logo.png" width="448" height="153" class="d-inline-block align-top pull-left" alt="">
-
-                </a>
+                <!--                <a class="navbar-brand" href="#" style="margin-top:-15px;">
+                                    <img alt="Traslados Cataratas" src="<?php echo base_url(); ?>assets/uploads/imagenes/logo/logo.png" width="448" height="153" class="d-inline-block align-top pull-left" alt="">
+                
+                                </a>-->
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
+
                         <li class="hidden">
                             <a href="#page-top"></a>
                         </li>
@@ -76,7 +77,7 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lugares de Interes <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li ><a style="color: #1c1a1a;" href="<?php echo base_url(); ?>index.php/pages/view/traslado1">Cataratas Argentinas</li>
+                                <li><a style="color: #1c1a1a;" href="<?php echo base_url(); ?>index.php/pages/view/traslado1">Cataratas Argentinas</li>
                                 <li><a style="color: #1c1a1a;"href="#">La Aripuca</a></li>
                                 <li><a style="color: #1c1a1a;"href="#">Güira Oga </a></li>
                                 <li><a style="color: #1c1a1a;"href="#">Biocentro</a></li>
@@ -84,7 +85,7 @@
                                 <li><a style="color: #1c1a1a;"href="#">Espiritus de la selva</a></li>
                                 <li><a style="color: #1c1a1a;"href="#">Jardín de Picaflores</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li ><a style="color: #1c1a1a;" href="#">Minas de Wanda y Ruinas de San Ignacio</li>
+                                <li><a style="color: #1c1a1a;" href="#">Minas de Wanda y Ruinas de San Ignacio</li>
                                 <li><a style="color: #1c1a1a;"href="#">Excuriones Tres Paises</a></li>
                                 <li><a style="color: #1c1a1a;"href="#">Minas de Wanda </a></li> 
                                 <li role="separator" class="divider"></li>
@@ -112,8 +113,19 @@
             </div>
             <!-- /.container-fluid -->
         </nav>
-        
 
+        <style>
+            .navbar-brand {
+                  height: 100px;
+                padding: 0px;
+            }
+            .navbar-brand>img {
+                height: 100%;
+                padding: 15px;
+                width: auto;
+            }
+         
+        </style>
         <!-- www.tutiempo.net - Ancho:477px - Alto:91px -->
 
 
