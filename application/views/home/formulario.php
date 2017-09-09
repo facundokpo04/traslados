@@ -75,13 +75,6 @@
     </div>
 
 </div>
-<div class="panel panel-default">
-    
-        <div class="fb-comments" data-href="https://www.facebook.com/trasladoscataratas" data-numposts="5"></div>
-   
-</div>
-</div>
-</div>
 
 
 
