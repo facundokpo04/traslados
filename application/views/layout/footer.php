@@ -19,8 +19,13 @@
                     <h3>Tiempo en Iguazu</h3>
                     <div class='center-block' id="TT_yiGwbxtBtWzs8ehUKASEEkE1EzaUTYWlLYkdEZyIq1DoGImI3">El tiempo - Tutiempo.net</div>
                 </div>
-
+                <div class="footer-col col-md-4">
+                    <h3>Comparti Nuestra Pagina</h3>
+                    <div class="fb-like" data-href="https://www.facebook.com/trasladoscataratas/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                </div>
+                
             </div>
+
             <div class="row">
                 <div class="footer-col col-md-4">
                     <h3>Localizacion</h3>
@@ -31,7 +36,7 @@
                     <h3>Nuestras Redes Sociales</h3>
                     <ul class="list-inline">
                         <li>
-                            <a href="https://www.facebook.com/pumatraslados" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/trasladoscataratas/" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
                         </li>
                         <li>
                             <a href="#" class="btn-social btn-outline"><span class="sr-only">Google Plus</span><i class="fa fa-fw fa-google-plus"></i></a>
@@ -104,7 +109,16 @@
 <script type="text/javascript">
     var baseurl = "<?php echo base_url(); ?>";
 </script>
-
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id))
+            return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.10";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 </body>
 
 </html>

@@ -13,43 +13,49 @@ $mp = new Mercadopago("2673738623774353", "lu3xy9QvaKLqfKUudd6AwBkKOAPGUw7Q");
 $preference = $mp->create_preference($preference_data);
 ?>
 <div class="container">
-<div class="row">
-    <div class="col-sm-12 col-lg-12 col-md-12">
-        <div class="thumbnail">
-            <img class="img-fluid"  src="<?php echo base_url(); ?>assets/images/traslado4/t2det.jpg" alt="">
-            <div class="caption-full">
-                <h2 class="pull-right">400.00</h2>
-                <h2><a href="#">Traslado Al Aeropuerto</a>
-                    
-                    
-                </h2>
-                <p>
-                    Este traslado incluye viaje ida o de vuelta desde el aeropuerto de Puerto Iguazu a algun otro punto de la ciudad o viceversa. </p>
-                      <p> En el caso que sea de llegada a el aeropuerto, nostros lo esperaremos con un cartel con su nombre. </p>
-                      <p>Una vez reservado el traslado nosostros nos comunicaremos con usted para que nos facilita el <strong>Numero de Vuelo</strong> y la <strong>Hora de Arribo</strong> para evitar cualquier contratiempo. </p>
-                    
-                    
-                </p>
-            </div>
-            <div class="ratings">
-                <p class="pull-right">3 Comentarios</p>
-                <p>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                    4.0 stars
-                </p>
-            </div>
+    <div class="row">
+        <div class="col-sm-12 col-lg-12 col-md-12">
+            <div class="thumbnail">
+                <img class="img-fluid"  src="<?php echo base_url(); ?>assets/images/traslado4/t2det.jpg" alt="">
+                <div class="caption-full">
+                    <h2 class="pull-right">400.00</h2>
+                    <h2><a href="#">Traslado Al Aeropuerto</a>
 
+
+                    </h2>
+                    <p>
+                        Este traslado incluye viaje ida o de vuelta desde el aeropuerto de Puerto Iguazu a algun otro punto de la ciudad o viceversa. </p>
+                    <p> En el caso que sea de llegada a el aeropuerto, nostros lo esperaremos con un cartel con su nombre. </p>
+                    <p>Una vez reservado el traslado nosostros nos comunicaremos con usted para que nos facilita el <strong>Numero de Vuelo</strong> y la <strong>Hora de Arribo</strong> para evitar cualquier contratiempo. </p>
+
+
+                    </p>
+                </div>
+                 <div class="row">
+            
         </div>
- </div>
+                <div class="ratings">
+                    <p class="pull-right">3 Comentarios</p>
+                    <p>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star-empty"></span>
+                        4.0 stars
+                    </p>
+                </div>
 
-     
-     <?php
+            </div>
+             
+        </div>
+
+
+        <?php
         $this->load->view('home/formulario.php', [
             'preference' => $preference,
             'preference_data' => $preference_data
         ]);
         ?>
+
+      
