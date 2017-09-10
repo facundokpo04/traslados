@@ -4,7 +4,7 @@
         <!-- Post Content Column -->
 
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-8">
                 <h1>Traslados en Iguazu</h1>
                 <p><b>Le Ofrecemos la posibilidad de comprar sus traslados en puerto iguazu anticipadamente, 
                         el precio por traslado es por vehiculo y hasta 4 personas en el mismo, usted cuenta con la posibilidad de pagar con 
@@ -19,10 +19,20 @@
 
                 <hr>
             </div>
+
+            <div class="col-lg-4">
+                <h2>Novedades</h2>
+
+
+                <hr>
+
+                <div class="fb-page" data-href="https://www.facebook.com/trasladoscataratas/" data-tabs="timeline" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/trasladoscataratas/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/trasladoscataratas/">Traslados Cataratas</a></blockquote></div>
+                <hr>
+            </div>
         </div>
         <div class="row">
-            <div class="col-lg-8">
-                <div class="col-sm-6 col-lg-6 col-md-6">
+            <div class="col-lg-12">
+                <div class="col-sm-4 col-lg-4 col-md-4">
                     <div class="thumbnail">
 
                         <img src="<?php echo base_url(); ?>assets/images/traslado1/cataratasarg.jpg" alt="">              
@@ -49,7 +59,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-lg-6 col-md-6">
+                <div class="col-sm-4 col-lg-4 col-md-4">
                     <div class="thumbnail">
                         <img src="<?php echo base_url(); ?>assets/images/traslado4/trasladoaeropuerto.jpg" alt="">
                         <div class="caption">
@@ -72,7 +82,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-lg-6 col-md-6">
+                <div class="col-sm-4 col-lg-4 col-md-4">
                     <div class="thumbnail">
                         <img src="<?php echo base_url(); ?>assets/images/traslado5/citytour.jpg" alt="http://placehold.it/320x150">
                         <div class="caption">
@@ -94,7 +104,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-6 col-md-6">
+                <div class="col-sm-4 col-lg-4 col-md-4">
                     <div class="thumbnail">
                         <img src="<?php echo base_url(); ?>assets/images/traslado6/aeropuertobrasil.jpg" alt="">
                         <div class="caption">
@@ -116,7 +126,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-6 col-md-6">
+                <div class="col-sm-4 col-lg-4 col-md-4">
                     <div class="thumbnail">
                         <img src="<?php echo base_url(); ?>assets/images/traslado6/aeropuertobrasil.jpg" alt="">
                         <div class="caption">
@@ -138,7 +148,7 @@
                         </div>
                     </div>
                 </div>    
-                <div class="col-sm-6 col-lg-6 col-md-6">
+                <div class="col-sm-4 col-lg-4 col-md-4">
                     <div class="thumbnail">
                         <img src="<?php echo base_url(); ?>assets/images/traslado8/centrofoz.jpg" alt="">
                         <div class="caption">
@@ -160,7 +170,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-6 col-md-6">
+                <div class="col-sm-4 col-lg-4 col-md-4">
                     <div class="thumbnail">
                         <img src="<?php echo base_url(); ?>assets/images/traslado9/cataratasbrasil.jpg" alt="">
                         <div class="caption">
@@ -182,7 +192,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-6 col-md-6">
+                <div class="col-sm-4 col-lg-4 col-md-4">
                     <div class="thumbnail">
                         <img src="<?php echo base_url(); ?>assets/images/traslado10/ciudaddeleste.jpg" alt="">
                         <div class="caption">
@@ -204,7 +214,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-6 col-md-6">
+                <div class="col-sm-4 col-lg-4 col-md-4">
                     <div class="thumbnail">
                         <img src="<?php echo base_url(); ?>assets/images/traslado11/itaipu.jpg" alt="">
                         <div class="caption">
@@ -226,7 +236,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-6 col-md-6">
+                <div class="col-sm-4 col-lg-4 col-md-4">
                     <div class="thumbnail">
                         <img src="<?php echo base_url(); ?>assets/images/traslado12/itaipucatartas.jpg" alt="">
                         <div class="caption">
@@ -249,7 +259,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-lg-6 col-md-6">
+                <div class="col-sm-4 col-lg-4 col-md-4">
                     <div class="thumbnail">
                         <img src="<?php echo base_url(); ?>assets/images/traslado13/minaswanda.jpg" alt="">
                         <div class="caption">
@@ -271,7 +281,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-6 col-md-6">
+                <div class="col-sm-4 col-lg-4 col-md-4">
                     <div class="thumbnail">
                         <img src="<?php echo base_url(); ?>assets/images/traslado15/sanignacio.jpg" alt="">
                         <div class="caption">
@@ -293,21 +303,21 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-6 col-md-6">
+                <div class="col-sm-4 col-lg-4 col-md-4">
                     <h4><a href="#">No encontro el traslado que andaba buscando?</a>
                     </h4>
                     <p>Envienos su consulta y le cotizaremos el traslado a su medida </p>
                     <a class="btn btn-primary" target="_blank" href="<?php echo base_url(); ?>index.php/pages/view/contact">Cotizar</a>
                 </div>
             </div>
-            <div class="col-lg-4">
-                 
-                      
-                    
-                       
-                     <div class="fb-page" data-href="https://www.facebook.com/trasladoscataratas/" data-tabs="timeline" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/trasladoscataratas/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/trasladoscataratas/">Traslados Cataratas</a></blockquote></div>
-
-                 </div>
+            <!--            <div class="col-lg-4">
+                             
+                                  
+                                
+                                   
+                                 <div class="fb-page" data-href="https://www.facebook.com/trasladoscataratas/" data-tabs="timeline" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/trasladoscataratas/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/trasladoscataratas/">Traslados Cataratas</a></blockquote></div>
+            
+                             </div>-->
         </div>
         <div class="row">
             <div class="col-lg-12">

@@ -97,4 +97,9 @@ $preference = $mp->create_preference($preference_data);
         ]);
         ?>
 
-
+   <div class="panel panel-default">
+          <h4 style="text-align: center"><a href="#">Dejamos tu comentario</a></h4>
+        <div class="fb-comments" data-href="https://www.facebook.com/trasladoscataratas" data-numposts="5"></div>
+   
+</div>
+</div>

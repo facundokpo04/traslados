@@ -64,9 +64,15 @@ echo $nroTras;
     </div>
 
 
-     <?php
+  <?php
         $this->load->view('home/formulario.php', [
             'preference' => $preference,
             'preference_data' => $preference_data
         ]);
         ?>
+<div class="panel panel-default">
+    
+        <div class="fb-comments" data-href="https://www.facebook.com/trasladoscataratas" data-numposts="5"></div>
+   
+</div>
+</div>
