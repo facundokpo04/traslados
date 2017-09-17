@@ -48,6 +48,25 @@ class Home extends CI_Controller {
         //footer
         $this->load->view('layout/footer');
     }
+    
+     public function alojamiento($i) {
+
+        //header
+
+
+        $this->load->view('layout/header');
+//        $this->load->view('layout/menu');
+        //definimos variable para traer la data y mantner la logica de paginacion
+        //inicializacion de paginacion
+
+
+        
+        $this->load->view('alojamientos/' . $i . '.php');
+
+//        $this->load->view('home/formulario.php');
+        //footer
+        $this->load->view('layout/footer');
+    }
 
     public function registrarTraslado() {
         
