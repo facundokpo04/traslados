@@ -16,7 +16,7 @@
             </div>
 
             <div class="col-lg-4">
-                <h2>Novedades</h2>
+                <h2>Novedades Alojamiento Iguazu</h2>
 
 
              

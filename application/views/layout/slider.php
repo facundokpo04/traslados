@@ -19,14 +19,14 @@
                     <!-- Set the second background image using inline CSS below. -->
                     <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
                     <div class="carousel-caption">
-                        <h2>Caption 2</h2>
+                        <h2>Ciudad del Este</h2>
                     </div>
                 </div>
                 <div class="item">
                     <!-- Set the third background image using inline CSS below. -->
                     <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
                     <div class="carousel-caption">
-                        <h2>Caption 3</h2>
+                        <h2>Cataratas Brasileras</h2>
                     </div>
                 </div>
             </div>

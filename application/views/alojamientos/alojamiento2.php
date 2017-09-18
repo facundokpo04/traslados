@@ -3,7 +3,7 @@
     <hr>
     <hr>
     <!-- Portfolio Item Heading -->
-    <h1 class="my-4">Alojamiento Premium
+    <h1 class="my-4">Alojamiento en Iguazu Premium
         <small>Cotizaciones Cataratas Departamentos</small>
     </h1>
 

@@ -21,7 +21,7 @@
             </div>
 
             <div class="col-lg-4">
-                <h2>Novedades</h2>
+                <h2>Novedades Traslados</h2>
 
 
                 <hr>
@@ -321,7 +321,7 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <h1>Excursiones y Tours</h1>
+                <h1>Excursiones y Tours en Iguazu</h1>
                 <p><b>Excursiones y Tours para disfrutar en puerto iguazu, con guia incluido el precio de las excursiones es por persona.</b></p>
                 <hr>
             </div>
@@ -360,7 +360,7 @@
 
   <div class="row">
             <div class="col-lg-12">
-                <h1>Alojamientos</h1>
+                <h1>Alojamientos en Iguazu</h1>
                 <p><b>Nuestro alojamientos exclusivos de Iguazu</b></p>
                 <hr>
             </div>
@@ -374,7 +374,7 @@
 
                         <div class="caption">
                             <h4 class="pull-right"></h4>
-                            <h5><a href="#">Departamento Economico</a>
+                            <h5><a href="#">Departamento en Iguazu Economico</a>
                             </h5>
                             <p>Departamento Economico y comodo para alojarse</p>
                         </div>
@@ -400,7 +400,7 @@
 
                         <div class="caption">
                             <h4 class="pull-right"></h4>
-                            <h5><a href="#">Departamento Premium</a>
+                            <h5><a href="#">Departamento en Iguazu Premium</a>
                             </h5>
                             <p>Departamento Premium  para alojarse</p>
                         </div>

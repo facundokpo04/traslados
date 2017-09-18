@@ -3,7 +3,7 @@
     <hr>
     <hr>
     <!-- Portfolio Item Heading -->
-    <h1 class="my-4">Alojamiento Economico
+    <h1 class="my-4">Alojamientos Iguazu Economico
         <small>Ambar House Departamentos</small>
     </h1>
 
